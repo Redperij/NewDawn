@@ -56,6 +56,10 @@
 	name = "\improper South Hallway"
 	icon_state = "southhall"
 
+/area/hallway/south/engineering
+	name = "\improper Engineering Hallway"
+	icon_state = "southhall"
+
 /area/hallway/west
 	name = "\improper West Hallway"
 	icon_state = "westhall"
@@ -848,6 +852,16 @@
 	icon_state = "sec_prison"
 	req_access = list(access_brig)
 
+/area/security/prison/solitary
+	name = "\improper Security - Solitary Prison"
+	icon_state = "sec_prison"
+	req_access = list(access_brig)
+
+/area/security/prison/perma
+	name = "\improper Security - Permanent Prison"
+	icon_state = "sec_prison"
+	req_access = list(access_brig)
+
 /area/security/prison/detention
 	name = "\improper Security - Prison Detention Rooms"
 	icon_state = "sec_prison"
@@ -901,6 +915,18 @@
 
 /area/security/wing
 	name = "\improper Security Wing"
+	icon_state = "security"
+
+/area/security/wing/west
+	name = "\improper Security West Wing"
+	icon_state = "security"
+
+/area/security/wing/north
+	name = "\improper Security North Wing"
+	icon_state = "security"
+
+/area/security/entrance
+	name = "\improper Security Entrance"
 	icon_state = "security"
 
 /area/security/court
