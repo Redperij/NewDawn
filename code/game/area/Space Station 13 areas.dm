@@ -64,7 +64,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /////////
 
 /area/space
-	name = "\improper Space"
+	name = "\improper Космос"
 	icon_state = "space"
 	requires_power = 1
 	always_unpowered = 1
@@ -96,25 +96,25 @@ area/space/atmosalert()
 //AREAS USED BY CODE//
 //////////////////////
 /area/centcom
-	name = "\improper Centcom"
+	name = "\improper Центком"
 	icon_state = "centcom"
 	requires_power = 0
 	dynamic_lighting = 0
 	req_access = list(access_cent_general)
 
 /area/centcom/holding
-	name = "\improper Holding Facility"
+	name = "\improper Комната Отдыха"
 
 /area/chapel
-	name = "\improper Chapel"
+	name = "\improper Церковь"
 	icon_state = "chapel"
 
 /area/centcom/specops
-	name = "\improper Centcom Special Ops"
+	name = "\improper Спец Операции Центком-ия"
 	req_access = list(access_cent_specops)
 
 /area/hallway
-	name = "hallway"
+	name = "Коридор"
 
 /area/medical
 	req_access = list(access_medical)
@@ -123,12 +123,12 @@ area/space/atmosalert()
 	req_access = list(access_sec_doors)
 
 /area/security/brig
-	name = "\improper Security - Brig"
+	name = "\improper СБ - Бриг"
 	icon_state = "brig"
 	req_access = list(access_brig)
 
 /area/security/prison
-	name = "\improper Security - Prison Wing"
+	name = "\improper СБ - Тюремное Крыло"
 	icon_state = "sec_prison"
 	req_access = list(access_brig)
 
@@ -143,20 +143,20 @@ area/space/atmosalert()
 	req_access = list(access_research)
 
 /area/rnd/xenobiology
-	name = "\improper Xenobiology Lab"
+	name = "\improper Ксенобиологическая Лаборатория"
 	icon_state = "xeno_lab"
 	req_access = list(access_xenobiology, access_research)
 
 /area/rnd/xenobiology/xenoflora
-	name = "\improper Xenoflora Lab"
+	name = "\improper Ксенофлора"
 	icon_state = "xeno_f_lab"
 
 /area/rnd/xenobiology/xenoflora_storage
-	name = "\improper Xenoflora Storage"
+	name = "\improper Хранение Ксенофлоры"
 	icon_state = "xeno_f_store"
 
 /area/shuttle/escape/centcom
-	name = "\improper Emergency Shuttle Centcom"
+	name = "\improper Экстренный Спасательный Шаттл Центком-ия"
 	icon_state = "shuttle"
 	req_access = list(access_cent_general)
 
@@ -174,23 +174,23 @@ area/space/atmosalert()
 	req_access = list(access_syndicate)
 
 /area/supply
-	name = "Supply Shuttle"
+	name = "Шаттл Снабжения"
 	icon_state = "shuttle3"
 	req_access = list(access_cargo)
 
 /area/syndicate_elite_squad
-	name = "\improper Elite Mercenary Squad"
+	name = "\improper Элитный Отряд Наёмников"
 	icon_state = "syndie-elite"
 	req_access = list(access_syndicate)
 
 /area/remains
-	name = "Old Station Remains"
+	name = "Остатки Старой Станции"
 	sound_env = TUNNEL_ENCLOSED
 	forced_ambience = list('sound/ambience/maintambience.ogg')
 /area/remains/secure
-	name = "Secure remains"
+	name = "Безопасные Останки"
 /area/remains/insecure
-	name = "Insecure remains"
+	name = "Опасные Останки"
 	turf_initializer = /decl/turf_initializer/maintenance
 	area_flags = AREA_FLAG_IS_NOT_PERSISTENT
 

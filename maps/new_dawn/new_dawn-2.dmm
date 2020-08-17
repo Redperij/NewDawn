@@ -72,7 +72,7 @@
 	pixel_x = 27
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "abI" = (
 /obj/structure/table/steel_reinforced,
 /obj/structure/cable/green{
@@ -255,7 +255,7 @@
 	name = "Artillery Core"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "ael" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -1243,7 +1243,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "asK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1892,7 +1892,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "aCx" = (
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2284,7 +2284,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "aIB" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -2488,9 +2488,7 @@
 	},
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "aMX" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
@@ -3455,9 +3453,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "bfy" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/industrial/warning{
@@ -4283,9 +4279,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "btC" = (
 /obj/structure/bed/chair/comfy/purple{
 	dir = 1
@@ -4402,13 +4396,8 @@
 /turf/simulated/floor/tiled,
 /area/hallway/west/entry)
 "bvS" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/tiled/white,
-/area/medical/virology)
+/turf/simulated/floor/tiled,
+/area/hydroponics/assistant)
 "bvX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4;
@@ -6330,7 +6319,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "bZb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -7205,7 +7194,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "clf" = (
 /obj/effect/floor_decal/spline/plain/red{
 	dir = 1
@@ -7598,7 +7587,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "cph" = (
 /obj/machinery/disposal,
 /obj/effect/floor_decal/borderfloor{
@@ -8632,7 +8621,7 @@
 	name = "Observation Blast Doors"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "cDZ" = (
 /obj/machinery/door/airlock/command{
 	id_tag = 1;
@@ -9449,7 +9438,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/grass,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "cRd" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -9944,7 +9933,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "cXL" = (
 /obj/structure/table/rack,
 /obj/item/weapon/gun/energy/stunrevolver/rifle{
@@ -11215,7 +11204,7 @@
 "dpQ" = (
 /obj/machinery/meter/turf,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "dqj" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 9
@@ -11833,7 +11822,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "dAx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -12089,7 +12078,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/airless,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "dEa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -12384,7 +12373,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "dHU" = (
 /obj/effect/floor_decal/corner/red/half{
 	dir = 1
@@ -13429,7 +13418,7 @@
 	},
 /obj/item/weapon/storage/firstaid/o2,
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "dUY" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -13760,7 +13749,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "eaa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -13974,9 +13963,7 @@
 	},
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "egZ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/shutters/open{
@@ -14616,7 +14603,7 @@
 	name = "The hermes crate"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "euo" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -14929,7 +14916,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "ezv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -16033,9 +16020,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "eRH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -16495,7 +16480,7 @@
 	icon_state = "intact-supply"
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "fbw" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -17545,7 +17530,7 @@
 "fsk" = (
 /obj/machinery/biogenerator,
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "fsT" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 10
@@ -17834,7 +17819,7 @@
 	id_tag = "air222"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "fwO" = (
 /turf/simulated/floor,
 /area/maintenance/east/dormitories)
@@ -18335,9 +18320,7 @@
 /obj/structure/flora/pottedplant/deskfern,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "fCv" = (
 /obj/item/device/radio/intercom{
 	dir = 1;
@@ -18904,7 +18887,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "fJS" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -19929,7 +19912,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "gbT" = (
 /obj/machinery/optable,
 /turf/simulated/floor/tiled/white,
@@ -20267,7 +20250,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "gjF" = (
 /turf/simulated/floor/tiled,
 /area/hydroponics/storage)
@@ -20528,7 +20511,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "gpt" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/random_multi/single_item/runtime,
@@ -20707,9 +20690,7 @@
 	},
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "gss" = (
 /obj/structure/table/rack,
 /obj/item/weapon/crowbar/brace_jack{
@@ -21033,7 +21014,7 @@
 	},
 /obj/machinery/door/airlock/hatch/maintenance,
 /turf/simulated/floor/tiled/steel_ridged,
-/area/medical/counselor)
+/area/medical/assistant)
 "gvY" = (
 /obj/structure/table/rack,
 /obj/item/clothing/head/helmet/solgov{
@@ -21326,20 +21307,8 @@
 /turf/simulated/floor/plating,
 /area/maintenance/substation/rnd)
 "gAp" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/virology{
-	frequency = 1379;
-	id_tag = "virology_airlock_interior";
-	locked = 1;
-	name = "Virology Internal Airlock"
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/medical/virology)
+/turf/simulated/wall/prepainted,
+/area/medical/assistant)
 "gAv" = (
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
@@ -22706,7 +22675,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "gWR" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -23318,7 +23287,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "hgb" = (
 /obj/machinery/door/airlock/civilian{
 	name = "Stall"
@@ -23651,7 +23620,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "hls" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /turf/simulated/floor/tiled/techfloor,
@@ -24277,7 +24246,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "huP" = (
 /obj/structure/bed/chair/padded/red,
 /turf/simulated/floor/tiled/steel_grid,
@@ -24288,7 +24257,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "hvf" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -24319,7 +24288,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "hvC" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
@@ -24704,9 +24673,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/machinery/media/jukebox/old,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "hCr" = (
 /turf/simulated/floor/tiled,
 /area/hallway/south)
@@ -24822,7 +24789,7 @@
 "hEF" = (
 /obj/structure/bed/chair/wheelchair,
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "hEI" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -25571,7 +25538,7 @@
 	},
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "hPB" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 4
@@ -26569,7 +26536,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "ieZ" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -26590,7 +26557,7 @@
 "ifm" = (
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "ifo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -27148,7 +27115,7 @@
 /area/storage/misc)
 "ind" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "ins" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/tcommsat/storage)
@@ -28127,7 +28094,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "iFh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -28266,7 +28233,7 @@
 "iGP" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "iHp" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -28514,7 +28481,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/airless,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "iKH" = (
 /obj/machinery/photocopier,
 /obj/effect/floor_decal/corner/mauve/mono,
@@ -28625,19 +28592,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/east/departure)
-"iMM" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/white,
-/area/chapel/crematorium)
 "iMO" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -28685,7 +28639,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "iOk" = (
 /obj/structure/flora/pottedplant/minitree,
 /obj/effect/floor_decal/corner/mauve/mono,
@@ -28770,7 +28724,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "iQa" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 8
@@ -29167,7 +29121,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "iYA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -29374,9 +29328,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "jcI" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 8
@@ -29487,7 +29439,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "jeM" = (
 /obj/structure/bed/chair/office/comfy/green,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -29608,7 +29560,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/ship_munition/disperser_charge/mining,
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "jhV" = (
 /obj/structure/table/marble,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -29660,7 +29612,7 @@
 	icon_state = "intact-supply"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "jji" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -30553,7 +30505,7 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "jzd" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
@@ -30608,9 +30560,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "jAd" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/black{
 	dir = 8
@@ -30885,7 +30835,7 @@
 	icon_state = "intact-supply"
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "jGN" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/quartermaster/hangar/smlvessels)
@@ -32416,7 +32366,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "kjl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/carpet/purple,
@@ -32426,7 +32376,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "kjp" = (
 /obj/machinery/suit_storage_unit/engineering/alt,
 /obj/effect/floor_decal/borderfloor{
@@ -32496,12 +32446,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_shuttle/station)
-"kjT" = (
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/white,
-/area/medical/virology)
 "kjX" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -32598,9 +32542,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/item/weapon/material/ashtray,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "kkV" = (
 /obj/machinery/flasher{
 	id_tag = "zeki4"
@@ -33382,14 +33324,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/plating,
 /area/hallway/west/entry)
-"kyZ" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/chapel/crematorium)
 "kzb" = (
 /obj/effect/shuttle_landmark/escape_pod/start/pod8,
 /obj/effect/wallframe_spawn/reinforced/titanium,
@@ -33820,7 +33754,7 @@
 /obj/effect/catwalk_plated,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "kGb" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 9
@@ -34022,7 +33956,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "kHN" = (
 /mob/living/exosuit/premade/powerloader/old,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -34741,7 +34675,7 @@
 	name = "Observation Blast Doors"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "kVH" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -36091,7 +36025,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "lta" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
@@ -36125,7 +36059,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "ltv" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5
@@ -36866,7 +36800,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "lGi" = (
 /obj/machinery/cryopod{
 	dir = 2
@@ -37293,7 +37227,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "lMw" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -37440,7 +37374,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "lOP" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/alarm{
@@ -38178,7 +38112,7 @@
 	icon_state = "warningcorner"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "lXw" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 1
@@ -38962,7 +38896,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "mlh" = (
 /obj/machinery/alarm{
 	pixel_y = 16
@@ -39330,7 +39264,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "mrR" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -39788,7 +39722,7 @@
 	target_pressure = 200
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "mCD" = (
 /obj/structure/table/glass,
 /obj/item/device/scanner/spectrometer,
@@ -40215,9 +40149,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "mLb" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /obj/structure/cable/cyan{
@@ -40335,7 +40267,7 @@
 	pixel_y = -30
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "mMe" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -40842,7 +40774,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "mTV" = (
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -41699,7 +41631,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "ngR" = (
 /obj/structure/cable/green,
 /obj/structure/cable/green{
@@ -42029,7 +41961,7 @@
 "nnF" = (
 /obj/machinery/computer/ship/disperser,
 /turf/simulated/floor/tiled/monotile,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "nnI" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -42138,7 +42070,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "npc" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1;
@@ -42308,7 +42240,7 @@
 "nrF" = (
 /obj/machinery/computer/modular/preset/cardslot/command,
 /turf/simulated/floor/tiled/monotile,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "nsp" = (
 /turf/simulated/wall/prepainted,
 /area/medical/equipstorage)
@@ -43005,9 +42937,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "nDE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -43419,10 +43349,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics/surgery)
-"nMN" = (
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/white/monotile,
-/area/medical/virology)
 "nMT" = (
 /obj/machinery/door/blast/regular/open{
 	density = 0;
@@ -43502,7 +43428,7 @@
 	pixel_y = -25
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "nNW" = (
 /obj/effect/catwalk_plated,
 /obj/structure/cable/green{
@@ -43534,7 +43460,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "nOb" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/blue,
@@ -43681,7 +43607,7 @@
 "nQa" = (
 /obj/machinery/camera/network/security,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "nQd" = (
 /obj/machinery/door/airlock/engineering,
 /obj/machinery/door/firedoor{
@@ -44592,9 +44518,7 @@
 	},
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "ofh" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 10
@@ -45015,7 +44939,7 @@
 "omd" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "omH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -45082,7 +45006,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "onB" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -45274,9 +45198,7 @@
 	},
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "orn" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/atmospherics/binary/pump{
@@ -45310,20 +45232,8 @@
 /turf/simulated/floor/tiled,
 /area/hallway/west/entry)
 "orH" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/virology{
-	frequency = 1379;
-	id_tag = "virology_airlock_exterior";
-	locked = 1;
-	name = "Virology External Airlock"
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/chapel/crematorium)
+/turf/simulated/wall/r_wall/prepainted,
+/area/medical/infirmary)
 "orO" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -45474,7 +45384,7 @@
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "ouh" = (
 /obj/structure/closet/emcloset,
 /obj/structure/fireaxecabinet{
@@ -45671,7 +45581,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "oxE" = (
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/hallwaya)
@@ -46052,7 +45962,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
-/area/chapel/crematorium)
+/area/medical/infirmary)
 "oFA" = (
 /obj/effect/floor_decal/corner/red/border{
 	dir = 1
@@ -46349,7 +46259,7 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "oKC" = (
 /obj/effect/floor_decal/carpet/green{
 	dir = 1
@@ -46486,7 +46396,7 @@
 "oMG" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "oMS" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -46556,9 +46466,7 @@
 "oOn" = (
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "oOM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -47514,7 +47422,7 @@
 	icon_state = "warning"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "pfZ" = (
 /obj/structure/bed/padded,
 /obj/effect/floor_decal/corner/green{
@@ -48537,7 +48445,7 @@
 /area/engineering/atmos)
 "pAm" = (
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "pAz" = (
 /obj/structure/closet/crate/internals/fuel,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -48667,7 +48575,7 @@
 /obj/structure/table/glass,
 /obj/item/weapon/storage/firstaid,
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "pCP" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -49091,9 +48999,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "pJC" = (
 /turf/space,
 /area/space)
@@ -49911,7 +49817,7 @@
 /obj/effect/floor_decal/industrial/outline/blue,
 /obj/structure/ship_munition/disperser_charge/emp,
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "pYk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4;
@@ -50118,7 +50024,7 @@
 	pixel_y = -28
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "qcA" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark,
@@ -50183,7 +50089,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/white,
-/area/chapel/crematorium)
+/area/medical/infirmary)
 "qds" = (
 /obj/structure/table/standard,
 /obj/item/stack/material/glass{
@@ -50534,9 +50440,7 @@
 /obj/item/weapon/book/manual/solgov_law,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "qku" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/black,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -50680,7 +50584,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "qoX" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -52028,7 +51932,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "qOv" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -52404,9 +52308,7 @@
 	pixel_x = 10
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "qVo" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/rack/dark,
@@ -53134,9 +53036,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "riz" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -53288,7 +53188,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "rkF" = (
 /obj/machinery/atmospherics/unary/heater,
 /obj/machinery/light{
@@ -53686,7 +53586,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "rrd" = (
 /obj/structure/flora/pottedplant/orientaltree,
 /obj/machinery/light{
@@ -53709,7 +53609,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "rrA" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/quartermaster/expedition/atmos)
@@ -53838,7 +53738,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "ruj" = (
 /obj/machinery/papershredder,
 /turf/simulated/floor/tiled,
@@ -54307,7 +54207,7 @@
 /obj/item/weapon/plantspray/pests,
 /obj/item/weapon/material/minihoe,
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "rEC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -54327,7 +54227,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "rFr" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -54395,7 +54295,7 @@
 /area/shuttle/petrov/analysis)
 "rGj" = (
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "rGo" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -55266,7 +55166,7 @@
 "rWu" = (
 /obj/machinery/portable_atmospherics/hydroponics/soil,
 /turf/simulated/floor/grass,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "rWA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/cyan{
@@ -55375,9 +55275,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "rYE" = (
 /obj/effect/wallframe_spawn/reinforced/polarized{
 	id = "meeting_windows"
@@ -56838,16 +56736,11 @@
 "syu" = (
 /obj/structure/cable/green{
 	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/white,
-/area/chapel/crematorium)
+/area/medical/infirmary)
 "syN" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -56978,7 +56871,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "sAT" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -57663,7 +57556,7 @@
 	},
 /obj/machinery/camera/network/security,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "sPK" = (
 /obj/machinery/door/blast/regular/open{
 	density = 0;
@@ -57766,7 +57659,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "sRH" = (
 /obj/structure/table/rack{
 	dir = 8
@@ -58399,7 +58292,7 @@
 	name = "Observation Blast Doors"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "tcW" = (
 /obj/effect/floor_decal/corner/brown/mono,
 /obj/machinery/papershredder,
@@ -58479,7 +58372,7 @@
 /obj/item/device/scanner/health,
 /obj/item/roller,
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "tes" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
@@ -59845,7 +59738,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "tzw" = (
 /obj/structure/bed/chair/shuttle{
 	dir = 1
@@ -59982,7 +59875,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "tDq" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -60171,7 +60064,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "tGM" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 4
@@ -60205,9 +60098,7 @@
 /area/exploration_shuttle/cargo)
 "tHF" = (
 /turf/simulated/wall/prepainted,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "tHJ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -60365,7 +60256,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/white,
-/area/chapel/crematorium)
+/area/medical/infirmary)
 "tKS" = (
 /obj/machinery/light{
 	dir = 1;
@@ -60390,9 +60281,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
-"tLs" = (
-/turf/simulated/floor/tiled/white,
-/area/chapel/crematorium)
 "tLz" = (
 /obj/machinery/light{
 	dir = 8;
@@ -60975,7 +60863,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "tWu" = (
 /obj/structure/catwalk,
 /obj/machinery/alarm{
@@ -61260,9 +61148,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/substation/cargo)
-"ucv" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/medical/virology)
 "ucE" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1;
@@ -61303,7 +61188,7 @@
 /obj/item/weapon/plantspray/pests,
 /obj/item/weapon/material/minihoe,
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "udm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/visible,
@@ -61923,7 +61808,7 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "ulP" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -62264,9 +62149,6 @@
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/engineering/engine_room)
-"uqJ" = (
-/turf/simulated/floor/tiled/white,
-/area/medical/virology)
 "uqW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -62499,11 +62381,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/sleeper)
-"uuP" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/medical/virology)
 "uvl" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -62594,7 +62471,7 @@
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/medical,
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "uxr" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -62621,7 +62498,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/chapel/crematorium)
+/area/medical/infirmary)
 "uya" = (
 /obj/effect/floor_decal/industrial/warning{
 	icon_state = "warning"
@@ -64591,7 +64468,7 @@
 	icon_state = "intact-supply"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "vcB" = (
 /obj/effect/floor_decal/corner/yellow/mono,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -64658,7 +64535,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "ven" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -64714,7 +64591,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "veQ" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -65212,7 +65089,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "vpb" = (
 /obj/structure/table/woodentable_reinforced,
 /obj/item/weapon/folder/red,
@@ -65384,7 +65261,7 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/ship_munition/disperser_charge/explosive,
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "vsS" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -65794,9 +65671,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "vyy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
@@ -65970,7 +65845,7 @@
 	icon_state = "warning"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "vBA" = (
 /obj/machinery/light{
 	dir = 8
@@ -66104,7 +65979,7 @@
 	},
 /obj/item/weapon/bedsheet/medical,
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "vDr" = (
 /obj/effect/floor_decal/techfloor,
 /obj/machinery/sleeper{
@@ -66161,7 +66036,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/counselor)
+/area/medical/assistant)
 "vDQ" = (
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/structure/cable/green{
@@ -66170,9 +66045,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "vDR" = (
 /turf/simulated/wall/prepainted,
 /area/quartermaster/storage)
@@ -67299,7 +67172,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "vUv" = (
 /obj/machinery/atmospherics/omni/filter{
 	tag_east = 5;
@@ -67701,7 +67574,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "waH" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
@@ -69211,7 +69084,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "wyv" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/monotile,
@@ -69357,7 +69230,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "wBq" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -69555,7 +69428,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "wDH" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/cable/green{
@@ -70230,18 +70103,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/escape_pod4/station)
-"wPy" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/tiled/white,
-/area/medical/virology)
 "wPz" = (
 /turf/simulated/floor/tiled,
 /area/quartermaster/expedition)
@@ -70595,7 +70456,7 @@
 /obj/item/weapon/reagent_containers/glass/bucket,
 /obj/item/weapon/material/minihoe,
 /turf/simulated/floor/tiled,
-/area/hydroponics)
+/area/hydroponics/assistant)
 "wUQ" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -71650,7 +71511,7 @@
 /obj/effect/floor_decal/industrial/outline/orange,
 /obj/structure/ship_munition/disperser_charge/fire,
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "xnV" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -71708,7 +71569,7 @@
 "xop" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "xox" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -72821,7 +72682,7 @@
 	},
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/tiled/dark,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "xIi" = (
 /obj/structure/filingcabinet/filingcabinet,
 /obj/effect/floor_decal/corner/brown/half{
@@ -73490,9 +73351,7 @@
 	pixel_x = -10
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/medical{
-	name = "\improper Medical Break Room"
-	})
+/area/crew_quarters/medical)
 "xTU" = (
 /obj/structure/sign/warning/compressed_gas{
 	dir = 1
@@ -73702,7 +73561,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
-/area/security/bosnian_artillery)
+/area/command/disperser)
 "xWp" = (
 /obj/effect/floor_decal/corner/red/border,
 /turf/simulated/floor/tiled/steel_grid,
@@ -73745,7 +73604,7 @@
 "xXs" = (
 /obj/machinery/oxygen_pump,
 /turf/simulated/wall/prepainted,
-/area/medical/counselor)
+/area/medical/assistant)
 "xXv" = (
 /obj/structure/hygiene/shower{
 	dir = 8;
@@ -87718,7 +87577,7 @@ pJC
 wUb
 qBP
 crT
-nqm
+bvS
 fJR
 fsk
 oxo
@@ -87945,10 +87804,10 @@ pJC
 wUb
 uPl
 jov
-nqm
+bvS
 hlm
-nqm
-nqm
+bvS
+bvS
 ltu
 lOF
 hPt
@@ -88173,11 +88032,11 @@ wUb
 uPl
 jJd
 cRb
-nqm
+bvS
 rWu
-nqm
+bvS
 rWu
-nqm
+bvS
 rWu
 wZV
 qQY
@@ -88400,11 +88259,11 @@ wUb
 uPl
 jJd
 rWu
-nqm
+bvS
 rWu
-nqm
+bvS
 rWu
-nqm
+bvS
 rWu
 pMl
 qQY
@@ -89081,7 +88940,7 @@ wUb
 uPl
 ttu
 oVH
-uSa
+gAp
 dUT
 tWl
 iET
@@ -89308,7 +89167,7 @@ wUb
 qBP
 uPl
 hbd
-uSa
+gAp
 pCy
 dHP
 mLQ
@@ -89535,7 +89394,7 @@ wUb
 uPl
 uPl
 iVu
-uSa
+gAp
 tem
 rFf
 qcy
@@ -89762,7 +89621,7 @@ wUb
 uPl
 uPl
 wxm
-uSa
+gAp
 vDL
 vej
 tGo
@@ -90216,7 +90075,7 @@ wUb
 uPl
 ttu
 oVH
-uSa
+gAp
 uwX
 vDk
 nOa
@@ -90443,9 +90302,9 @@ wUb
 qBP
 ttu
 ttu
-uSa
-uSa
-uSa
+gAp
+gAp
+gAp
 gvW
 ltw
 aMn
@@ -101594,9 +101453,9 @@ hyh
 gHL
 lsA
 yiZ
-nUZ
-nUZ
-nUZ
+lUf
+lUf
+lUf
 lUf
 lUf
 lUf
@@ -102055,7 +101914,7 @@ fFf
 fFf
 dJM
 dJM
-fFf
+dJM
 hcN
 qpX
 sRX
@@ -110034,13 +109893,13 @@ htw
 pJC
 pJC
 pJC
-ucv
-ucv
-ucv
-ucv
-ucv
-ucv
-ucv
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -110261,13 +110120,13 @@ pJC
 pJC
 pJC
 pJC
-ucv
-uqJ
-uqJ
-uuP
-uqJ
-uqJ
-ucv
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -110488,13 +110347,13 @@ pJC
 pJC
 pJC
 pJC
-ucv
-uqJ
-uqJ
-uuP
-uqJ
-uqJ
-ucv
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -110715,13 +110574,13 @@ pJC
 pJC
 pJC
 pJC
-ucv
-uqJ
-uqJ
-uuP
-uqJ
-uqJ
-ucv
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -110934,29 +110793,29 @@ tXa
 tXa
 tXa
 vQR
-oeU
+vQR
 uxN
-hAL
-hAL
-hAL
-hAL
-hAL
-ucv
-ucv
-uuP
-nMN
-uuP
-nMN
-uuP
-ucv
-ucv
-ucv
-ucv
-ucv
-ucv
-ucv
-ucv
-ucv
+orH
+orH
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -111163,27 +111022,27 @@ gJt
 vQR
 tKD
 oFc
-tLs
-hAL
-tLs
-tLs
-tLs
-ucv
-wPy
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-ucv
-uqJ
-uqJ
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-ucv
+oQi
+orH
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -111389,28 +111248,28 @@ twl
 hZV
 qfW
 syu
-iMM
-kyZ
+oFc
+oQi
 orH
-kyZ
-kyZ
-kyZ
-gAp
-bvS
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-nMN
-uqJ
-uqJ
-nMN
-uqJ
-uqJ
-uqJ
-uqJ
-ucv
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -111617,29 +111476,29 @@ roI
 vQR
 qde
 oFc
-tLs
-hAL
-tLs
-tLs
-tLs
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
-uqJ
-uqJ
-uuP
-uqJ
-uqJ
-uqJ
-uqJ
-ucv
-uuP
-uuP
+oQi
+orH
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -111842,31 +111701,31 @@ txa
 vQR
 vQR
 vQR
-oeU
+vQR
 uxN
-hAL
-hAL
-hAL
-hAL
-hAL
-ucv
-ucv
-ucv
-uuP
-nMN
-nMN
-ucv
-ucv
-uuP
-ucv
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
+orH
+orH
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -112076,24 +111935,24 @@ pJC
 pJC
 pJC
 pJC
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -112303,24 +112162,24 @@ pJC
 pJC
 pJC
 pJC
-ucv
-kjT
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -112530,24 +112389,24 @@ pJC
 pJC
 pJC
 pJC
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -112757,24 +112616,24 @@ pJC
 pJC
 pJC
 pJC
-ucv
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uqJ
-uuP
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -112985,23 +112844,23 @@ pJC
 pJC
 pJC
 pJC
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-ucv
-uuP
-uuP
-ucv
-ucv
-uuP
-uuP
-uuP
-ucv
-uuP
-uuP
-uuP
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -113212,12 +113071,12 @@ pJC
 pJC
 pJC
 pJC
-ucv
-uqJ
-uqJ
-uqJ
-uqJ
-ucv
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
@@ -113439,12 +113298,12 @@ pJC
 pJC
 pJC
 pJC
-ucv
-ucv
-ucv
-ucv
-ucv
-ucv
+pJC
+pJC
+pJC
+pJC
+pJC
+pJC
 pJC
 pJC
 pJC
