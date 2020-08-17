@@ -74,7 +74,7 @@
 
 /area/hallway/west/guest
 	name = "\improper Гостевой Коридор"
-	icon_state = "entry"
+	icon_state = "guesthall"
 
 //Maintenance
 /area/maintenance/central
@@ -692,23 +692,23 @@
 // Crew areas
 /area/crew_quarters/laundry
 	name = "\improper Прачечная"
-	icon_state = "Sleep"
+	icon_state = "laundry"
 
 /area/crew_quarters/dorms
 	name = "\improper Общие Спальни"
-	icon_state = "Sleep"
+	icon_state = "dorms"
 
 /area/crew_quarters/relax
 	name = "\improper Комната для Отдыха"
-	icon_state = "Sleep"
+	icon_state = "relax"
 
 /area/crew_quarters/concert
 	name = "\improper Концертный Зал"
-	icon_state = "Sleep"
+	icon_state = "concert"
 
 /area/crew_quarters/library
 	name = "\improper Библиотека"
-	icon_state = "Sleep"
+	icon_state = "library2"
 
 /area/crew_quarters/bar
 	name = "\improper Бар"
