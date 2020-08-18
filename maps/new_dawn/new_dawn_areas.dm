@@ -420,27 +420,8 @@
 	icon_state = "head_quarters"
 	sound_env = MEDIUM_SOFTFLOOR
 	req_access = list(access_pathfinder)
-/*
-/area/command/pilot //нужно?
-	name = "\improper Комната Пилота"
-	icon_state = "head_quarters"
-	sound_env = MEDIUM_SOFTFLOOR
-	req_access = list(access_pilot)
 
-/area/command/armoury //нужно?
-	name = "\improper Экстренная Оружейная"
-	icon_state = "Warden"
-	req_access = list(list(access_bridge, access_emergency_armory))
-
-/area/command/armoury/access
-	name = "\improper Emergency Armory - Access"
-
-/area/command/armoury/tactical
-	name = "\improper Emergency Armory - Tactical"
-	icon_state = "Tactical"
-	req_access = list(access_emergency_armory)
-*/
-/area/command/disperser //нужно?
+/area/command/disperser
 	name = "\improper Рассеиватель Заградительного Поля"
 	icon_state = "disperser"
 	req_access = list(access_brig)
@@ -555,34 +536,11 @@
 	icon_state = "quart"
 
 // Storage
-/area/storage/auxillary //нужно?
-	name = "Auxillary Storage"
-	icon_state = "auxstorage"
-	req_access = list(access_cargo)
-
-/area/storage/cargo //нужно?
-	name = "Cargo Storage"
-	icon_state = "quartstorage"
-	sound_env = SMALL_ENCLOSED
-	req_access = list(access_cargo)
-
-/area/storage/expedition //нужно?
-	name = "Auxiliary Expedition Storage"
-	icon_state = "storage"
-	sound_env = SMALL_ENCLOSED
-	req_access = list(list(access_mining, access_xenoarch))
-
 /area/storage/medical
 	name = "Медицинский Склад"
 	icon_state = "medbay4"
 	sound_env = SMALL_ENCLOSED
 	req_access = list(access_medical)
-
-/area/storage/research //нужно?
-	name = "Research Storage"
-	icon_state = "toxstorage"
-	sound_env = SMALL_ENCLOSED
-	req_access = list(access_research)
 
 // Supply
 
@@ -716,12 +674,6 @@
 	sound_env = LARGE_SOFTFLOOR
 	req_access = list(access_bar)
 
-/area/crew_quarters/barman //нужно?
-	name = "\improper Комната Бармена"
-	icon_state = "bar"
-	sound_env = LARGE_SOFTFLOOR
-	req_access = list(access_bar)
-
 /area/crew_quarters/gym
 	name = "\improper Gym"
 	icon_state = "fitness"
@@ -762,10 +714,6 @@
 /area/crew_quarters/adherent
 	name = "\improper Обслуживание Адхерантов"
 	icon_state = "robotics"
-
-/area/crew_quarters/office //нужно?
-	name = "\improper Computer Lab" //tbt
-	icon_state = "conference"
 
 /area/holocontrol
 	name = "\improper Контроль Голопалубы"
@@ -811,11 +759,6 @@
 	icon_state = "Warden"
 	req_access = list(access_armory)
 
-/area/security/storage //нужно?
-	name = "\improper СБ - Склад Снаряжения"
-	icon_state = "security"
-	req_access = list(access_brig)
-
 /area/security/armoury
 	name = "\improper СБ - Оружейная"
 	icon_state = "Warden"
@@ -834,16 +777,6 @@
 
 /area/security/evidence
 	name = "\improper СБ - Хранилище Улик"
-	icon_state = "security"
-	req_access = list(access_brig)
-
-/area/security/processing //нужно?
-	name = "\improper СБ - Processing"
-	icon_state = "security"
-	req_access = list(access_brig)
-
-/area/security/questioning //нужно?
-	name = "\improper СБ - Допросная"
 	icon_state = "security"
 	req_access = list(access_brig)
 
@@ -994,17 +927,17 @@
 	icon_state = "thruster"
 	req_access = list(access_engine)
 
-/area/thruster/NE //нужно?
-	name = "\improper First Deck Port Nacelle"
+/area/thruster/ne //нужно?
+	name = "\improper North-East Port Nacelle"
 
-/area/thruster/SE //нужно?
-	name = "\improper First Deck Starboard Nacelle"
+/area/thruster/nw //нужно?
+	name = "\improper North-West Starboard Nacelle"
 
-/area/thruster/SW //нужно?
-	name = "\improper Third Deck Port Nacelle"
+/area/thruster/se //нужно?
+	name = "\improper South-East Starboard Nacelle"
 
-/area/thruster/NW //нужно?
-	name = "\improper Third Deck Starboard Nacelle"
+/area/thruster/sw //нужно?
+	name = "\improper South-West Port Nacelle"
 
 /area/engineering/fuelbay //нужно?
 	name = "\improper Fuel Bay"
@@ -1018,30 +951,11 @@
 	icon_state = "bridge"
 	req_access = list(access_bridge)
 
-/area/bridge/hallway //нужно?
-	name = "\improper Bridge Access Hallway"
-	icon_state = "bridge_hallway"
-	req_access = list(access_solgov_crew)
-
-/area/bridge/hallway/port //нужно?
-	name = "\improper Bridge Port Access Hallway"
-
-/area/bridge/hallway/starboard //нужно?
-	name = "\improper Bridge Starboard Access Hallway"
-
 /area/bridge/meeting_room
 	name = "\improper Комната для Совещаний"
 	icon_state = "bridge_meeting"
 	ambience = list()
 	sound_env = MEDIUM_SOFTFLOOR
-
-/area/bridge/disciplinary_board_room //нужно?
-	name = "\improper Disciplinary Board Room"
-	sound_env = SMALL_ENCLOSED
-
-/area/bridge/disciplinary_board_room/deliberation //нужно?
-	name = "\improper Deliberation Room"
-	sound_env = SMALL_ENCLOSED
 
 /area/crew_quarters/heads
 	icon_state = "head_quarters"
@@ -1321,15 +1235,24 @@
 
 // Research
 /area/assembly
-	req_access = list(access_robotics_engineering)
+	req_access = list()
 
 /area/assembly/chargebay
-	name = "\improper Сборка Мехов"
+	name = "\improper Инженерная Зарядная Станция"
+	icon_state = "mechbay"
+
+/area/assembly/rnd_chargebay
+	name = "\improper Робототехническая Зарядная Станция"
 	icon_state = "mechbay"
 
 /area/assembly/robotics
 	name = "\improper Робототехническая"
 	icon_state = "robotics"
+
+/area/assembly/mech
+	name = "\improper Сборка Мехов"
+	icon_state = "mechbay"
+	req_access = list(access_robotics_engineering)
 
 /area/assembly/robotics/surgery
 	name = "\improper Робототехническая Операционная"
@@ -1422,15 +1345,6 @@
 	icon_state = "tcomsatcomp"
 
 // AI
-
-/area/ai_monitored //нужно?
-	name = "AI Monitored Area"
-
-/area/ai_monitored/storage/eva //нужно?
-	name = "\improper EVA Storage"
-	icon_state = "eva"
-	req_access = list(access_eva)
-
 /area/turret_protected/ai
 	name = "\improper Камера ИИ"
 	icon_state = "ai_chamber"
