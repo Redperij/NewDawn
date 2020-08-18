@@ -353,7 +353,7 @@
 
 /area/shuttle/petrov/rd
 	icon_state = "heads_rd"
-	name = "\improper СИС Петров - CSO's Office" //tbt
+	name = "\improper СИС Петров - Офис Руководителя Исследований"
 	icon_state = "head_quarters"
 	req_access = list(access_petrov_rd)
 
@@ -432,54 +432,54 @@
 
 /area/crew_quarters/heads/cobed
 	icon_state = "heads_cap"
-	name = "\improper Command - CO's Quarters" //tbt
+	name = "\improper Командование - Каюта Командира"
 	sound_env = MEDIUM_SOFTFLOOR
 	req_access = list(access_captain)
 
 /area/crew_quarters/heads/office/co
 	icon_state = "heads_cap"
-	name = "\improper Command - CO's Office" //tbt
+	name = "\improper Командование - Офис Командира"
 	sound_env = MEDIUM_SOFTFLOOR
 	req_access = list(access_captain)
 
 /area/crew_quarters/heads/office/xo
 	icon_state = "heads_hop"
-	name = "\improper Command - XO's Office" //tbt
+	name = "\improper Командование - Офис Старпома"
 	req_access = list(access_hop)
 
 /area/crew_quarters/heads/office/rd
 	icon_state = "heads_rd"
-	name = "\improper Command - CSO's Office" //tbt
+	name = "\improper Командование - Офис Руководителя Исследований"
 	req_access = list(access_rd)
 
 /area/crew_quarters/heads/office/cmo
 	icon_state = "heads_cmo"
-	name = "\improper Command - CMO's Office" //tbt
+	name = "\improper Командование - Офис Главного Врача"
 	req_access = list(access_cmo)
 
 /area/crew_quarters/heads/office/ce
 	icon_state = "heads_ce"
-	name = "\improper Engineering - CE's Office" //tbt
+	name = "\improper Engineering - Офис Главного Инженера"
 	req_access = list(access_ce)
 
 /area/crew_quarters/heads/office/cos
 	icon_state = "heads_hos"
-	name = "\improper Command - CoS' Office" //tbt
+	name = "\improper Командование - Офис Главы Службы Безопасности"
 	req_access = list(access_hos)
 
 /area/crew_quarters/heads/office/cl
 	icon_state = "heads_cl"
-	name = "\improper Command - CL's Office" //tbt
+	name = "\improper Командование - Офис Корпоративного Советника"
 	req_access = list(access_liaison)
 
 /area/crew_quarters/heads/office/cl/backroom
 	icon_state = "heads_cl"
-	name = "\improper Command - CL's Backroom" //tbt
+	name = "\improper Командование - Комната Исполнительных Помощников"
 	req_access = list(access_liaison)
 
 /area/crew_quarters/heads/office/sgr
 	icon_state = "heads_sr"
-	name = "\improper Command - SCGR's Office" //tbt
+	name = "\improper Командование - Офис Представителя СолПрава"
 	req_access = list(access_representative)
 
 // Engineering
@@ -561,7 +561,7 @@
 	icon_state = "quartstorage"
 
 /area/quartermaster/deckchief
-	name = "\improper Deck Chief's Office" //tbt
+	name = "\improper Офис Квартирмейстера"
 	icon_state = "quart"
 	req_access = list(access_qm)
 
@@ -755,7 +755,7 @@
 	req_access = list(access_brig)
 
 /area/security/bo
-	name = "\improper СБ - Brig Chief" //tbt
+	name = "\improper СБ - Надзиратель"
 	icon_state = "Warden"
 	req_access = list(access_armory)
 
@@ -992,7 +992,7 @@
 /area/centcom/test
 	name = "\improper Centcom Testing Facility" //tbt
 
-// Solars
+// Solars //tbt
 /area/maintenance/auxsolarport
 	name = "Solar Maintenance - Port"
 	icon_state = "SolarcontrolP"
@@ -1387,23 +1387,23 @@
 
 // ACTORS GUILD
 /area/acting
-	name = "\improper Centcom Acting Guild" //tbt
+	name = "\improper Организация Актёров Центком-ия"
 	icon_state = "red"
 	dynamic_lighting = 0
 	requires_power = 0
 
 /area/acting/backstage
-	name = "\improper Backstage" //tbt
+	name = "\improper Закулисы"
 
 /area/acting/stage
-	name = "\improper Stage" //tbt
+	name = "\improper Сцена"
 	dynamic_lighting = 1
 	icon_state = "yellow"
 
 // Thunderdome
 
 /area/tdome
-	name = "\improper Thunderdome" //tbt
+	name = "\improper Тандердом"
 	icon_state = "thunder"
 	requires_power = 0
 	dynamic_lighting = 0
@@ -1411,19 +1411,19 @@
 	req_access = list(access_cent_thunder)
 
 /area/tdome/tdome1
-	name = "\improper Thunderdome (Team 1)" //tbt
+	name = "\improper Тандердом (Команда 1)"
 	icon_state = "green"
 
 /area/tdome/tdome2
-	name = "\improper Thunderdome (Team 2)" //tbt
+	name = "\improper Тандердом (Команда 2)"
 	icon_state = "yellow"
 
 /area/tdome/tdomeadmin
-	name = "\improper Thunderdome (Admin.)" //tbt
+	name = "\improper Тандердом (Админ.)"
 	icon_state = "purple"
 
 /area/tdome/tdomeobserve
-	name = "\improper Thunderdome (Observer.)" //tbt
+	name = "\improper Тандердом (Наблюдатель.)"
 	icon_state = "purple"
 
 /***************************************/
