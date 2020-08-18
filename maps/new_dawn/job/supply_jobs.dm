@@ -1,10 +1,10 @@
 /datum/job/qm
-	title = "Deck Chief"
+	title = "Квартирмейстер"
 	department = "Supply"
 	department_flag = SUP
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Executive Officer"
+	supervisors = "Старпом"
 	economic_power = 5
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 27)
@@ -39,14 +39,18 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/cargo_tech
-	title = "Deck Technician"
+	title = "Логист"
 	department = "Supply"
 	department_flag = SUP
-	total_positions = 3
-	spawn_positions = 3
-	supervisors = "the Deck Chief and Executive Officer"
+	total_positions = 4
+	spawn_positions = 4
+	supervisors = "Квартирмейстер и Старпом"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 24
+	alt_titles = list(
+		"Грузчик",
+		"Менеджер Склада",
+		"Почтальон")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/tech
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -75,19 +79,19 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/mining
-	title = "Prospector"
+	title = "Старатель"
 	department = "Supply"
 	department_flag = SUP
-	total_positions = 2
-	spawn_positions = 2
-	supervisors = "the Deck Chief, the Corporate Liaison and the Executive Officer"
+	total_positions = 3
+	spawn_positions = 3
+	supervisors = "Квартирмейстер, Корпоративный Советник и Старпом"
 	economic_power = 7
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 25
 	alt_titles = list(
-		"Drill Technician",
-		"Shaft Miner",
-		"Salvage Technician")
+		"Буровой Техник",
+		"Шахтёр",
+		"Собиратель")
 	min_skill = list(   SKILL_HAULING = SKILL_ADEPT,
 	                    SKILL_EVA     = SKILL_BASIC)
 

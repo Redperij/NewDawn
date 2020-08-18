@@ -85,4 +85,4 @@
 	required_language = LANGUAGE_HUMAN_EURO
 
 /datum/map/new_dawn
-	default_assistant_title = "Passenger"
+	default_assistant_title = "Пассажир"

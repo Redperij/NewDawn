@@ -107,9 +107,9 @@
  */
 
 /datum/mil_branch/expeditionary_corps
-	name = "Expeditionary Corps"
-	name_short = "SCGEC"
-	email_domain = "torch.ec.scg"
+	name = "Экспедиционный Корпус"
+	name_short = "ЭКЦПСС"
+	email_domain = "torch.ec.scg" //tbt
 
 	rank_types = list(
 		/datum/mil_rank/ec/e3,
@@ -137,9 +137,9 @@
 						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/fleet
-	name = "Fleet"
-	name_short = "SCGF"
-	email_domain = "torch.fleet.mil"
+	name = "Флот"
+	name_short = "ФЦПСС"
+	email_domain = "torch.fleet.mil" //tbt
 
 	rank_types = list(
 		/datum/mil_rank/fleet/e1,
@@ -154,7 +154,6 @@
 		/datum/mil_rank/fleet/e9_alt1,
 		/datum/mil_rank/fleet/e9_alt2,
 		/datum/mil_rank/fleet/e9_alt3,
-		/datum/mil_rank/fleet/e9_alt4,
 		/datum/mil_rank/fleet/o1,
 		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3,
@@ -190,8 +189,8 @@
 						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/army
-	name = "Army"
-	name_short = "SCGA"
+	name = "Армия"
+	name_short = "ВСЦПСС"
 	email_domain = "army.mil"
 
 	rank_types = list(
@@ -226,8 +225,8 @@
 	                    SKILL_COMBAT  = SKILL_BASIC)
 
 /datum/mil_branch/civilian
-	name = "Civilian"
-	name_short = "Civ"
+	name = "Гражданский"
+	name_short = "Грж"
 	email_domain = "freemail.net"
 	allow_custom_email = TRUE
 
@@ -244,9 +243,9 @@
 	)
 
 /datum/mil_branch/solgov
-	name = "SolGov Employee"
-	name_short = "SCG"
-	email_domain = "torch.scg"
+	name = "Сотрудник СолПрава"
+	name_short = "ЦПСС"
+	email_domain = "torch.scg" //tbt
 
 	rank_types = list(
 		/datum/mil_rank/sol/gov,
@@ -261,8 +260,8 @@
 	)
 
 /datum/mil_branch/terran
-	name = "Independent Navy"
-	name_short = "ICCGN"
+	name = "Независимый Флот"
+	name_short = "НФГКК" // Независимый Флот Гильгамешской Колониальной Конфедерации
 	email_domain = "gilgamesh.navy.mil"
 
 	rank_types = list(
@@ -301,146 +300,140 @@
  */
 
 /datum/mil_rank/fleet/e1
-	name = "Crewman Recruit"
-	name_short = "CR"
+	name = "Мартос - Рекрут"
+	name_short = "МР"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 1
 
 /datum/mil_rank/fleet/e2
-	name = "Crewman Apprentice"
-	name_short = "CA"
+	name = "Младший Матрос"
+	name_short = "ММ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e2, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 2
 
 /datum/mil_rank/fleet/e3
-	name = "Crewman"
-	name_short = "CN"
+	name = "Матрос"
+	name_short = "МС"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e3, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 3
 
 /datum/mil_rank/fleet/e4
-	name = "Petty Officer Third Class"
-	name_short = "PO3"
+	name = "Старшина Третьего Класса"
+	name_short = "СТ3"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e4, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 4
 
 /datum/mil_rank/fleet/e5
-	name = "Petty Officer Second Class"
-	name_short = "PO2"
+	name = "Старшина Второго Класса"
+	name_short = "СТ2"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e5, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 5
 
 /datum/mil_rank/fleet/e6
-	name = "Petty Officer First Class"
-	name_short = "PO1"
+	name = "Старшина Первого Класса"
+	name_short = "СТ1"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e6, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 6
 
 /datum/mil_rank/fleet/e7
-	name = "Chief Petty Officer"
-	name_short = "CPO"
+	name = "Главный Старшина"
+	name_short = "ГСТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e7, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 7
 
 /datum/mil_rank/fleet/e8
-	name = "Senior Chief Petty Officer"
-	name_short = "SCPO"
+	name = "Главный Корабельный Страшина"
+	name_short = "ГКСТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e8, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 8
 
 /datum/mil_rank/fleet/e9
-	name = "Master Chief Petty Officer"
-	name_short = "MCPO"
+	name = "Мастер-Старшина"
+	name_short = "МСТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e9, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 9
 
 /datum/mil_rank/fleet/e9_alt1
-	name = "Command Master Chief Petty Officer"
-	name_short = "CMCPO"
+	name = "Команд-Мастер-Старшина"
+	name_short = "КМСТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e9_alt1, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 9
 
 /datum/mil_rank/fleet/e9_alt2
-	name = "Fleet Master Chief Petty Officer"
-	name_short = "FLTCM"
+	name = "Мастер-Старшина Флота"
+	name_short = "МСТФ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e9_alt2, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 9
 
 /datum/mil_rank/fleet/e9_alt3
-	name = "Force Master Chief Petty Officer"
-	name_short = "FORCM"
+	name = "Мастер-Старшина Военных Сил"
+	name_short = "МСТВС"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e9_alt3, /obj/item/clothing/accessory/solgov/specialty/enlisted)
 	sort_order = 9
 
-/datum/mil_rank/fleet/e9_alt4
-	name = "Master Chief Petty Officer of the Fleet"
-	name_short = "MCPOF"
-	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted/e9_alt4, /obj/item/clothing/accessory/solgov/specialty/enlisted)
-	sort_order = 9
-
 /datum/mil_rank/fleet/o1
-	name = "Ensign"
-	name_short = "ENS"
+	name = "Энсин"
+	name_short = "ЭНС"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/officer, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 11
 
 /datum/mil_rank/fleet/o2
-	name = "Sub-lieutenant"
-	name_short = "SLT"
+	name = "Младший Лейтенант"
+	name_short = "ИЛТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/officer/o2, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 12
 
 /datum/mil_rank/fleet/o3
-	name = "Lieutenant"
-	name_short = "LT"
+	name = "Лейтенант"
+	name_short = "ЛТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/officer/o3, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 13
 
 /datum/mil_rank/fleet/o4
-	name = "Lieutenant Commander"
-	name_short = "LCDR"
+	name = "Старший Лейтенант"
+	name_short = "СЛТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/officer/o4, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 14
 
 /datum/mil_rank/fleet/o5
-	name = "Commander"
-	name_short = "CDR"
+	name = "Коммандер"
+	name_short = "КМД"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/officer/o5, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 15
 
 /datum/mil_rank/fleet/o6
-	name = "Captain"
-	name_short = "CAPT"
+	name = "Капитан"
+	name_short = "КПТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/officer/o6, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 16
 
 /datum/mil_rank/fleet/o7
-	name = "Commodore"
-	name_short = "CDRE"
+	name = "Младший Контр-Адмирал"
+	name_short = "МКАДМ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/flag, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 17
 
 /datum/mil_rank/fleet/o8
-	name = "Rear Admiral"
-	name_short = "RADM"
+	name = "Контр-Адмирал"
+	name_short = "КАДМ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/flag/o8, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 18
 
 /datum/mil_rank/fleet/o9
-	name = "Vice Admiral"
-	name_short = "VADM"
+	name = "Вице-Адмирал"
+	name_short = "ВАДМ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/flag/o9, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 19
 
 /datum/mil_rank/fleet/o10
-	name = "Admiral"
-	name_short = "ADM"
+	name = "Адмирал"
+	name_short = "АДМ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/flag/o10, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 20
 
 /datum/mil_rank/fleet/o10_alt
-	name = "Fleet Admiral"
-	name_short = "FADM"
+	name = "Адмирал Флота"
+	name_short = "АДМФ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/flag/o10_alt, /obj/item/clothing/accessory/solgov/specialty/officer)
 	sort_order = 20
 
@@ -450,56 +443,56 @@
  *  =====
  */
 /datum/mil_rank/ec/e1
-	name = "Apprentice Explorer"
-	name_short = "AXPL"
+	name = "Младший Исследователь"
+	name_short = "МИСЛ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/enlisted)
 	sort_order = 1
 
 /datum/mil_rank/ec/e3
-	name = "Explorer"
-	name_short = "XPL"
+	name = "Исследователь"
+	name_short = "ИСЛ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/enlisted/e3)
 	sort_order = 3
 
 /datum/mil_rank/ec/e5
-	name = "Senior Explorer"
-	name_short = "SXPL"
+	name = "Старший Исследователь"
+	name_short = "СИСЛ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/enlisted/e5)
 	sort_order = 5
 
 /datum/mil_rank/ec/e7
-	name = "Chief Explorer"
-	name_short = "CXPL"
+	name = "Главный Исследователь"
+	name_short = "ГИСЛ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/enlisted/e7)
 	sort_order = 7
 
 /datum/mil_rank/ec/o1
-	name = "Ensign"
-	name_short = "ENS"
+	name = "Энсин"
+	name_short = "ЭНС"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/officer)
 	sort_order = 11
 
 /datum/mil_rank/ec/o3
-	name = "Lieutenant"
-	name_short = "LT"
+	name = "Лейтенант"
+	name_short = "ЛТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/officer/o3)
 	sort_order = 13
 
 /datum/mil_rank/ec/o5
-	name = "Commander"
-	name_short = "CDR"
+	name = "Коммандер"
+	name_short = "КМД"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/officer/o5)
 	sort_order = 15
 
 /datum/mil_rank/ec/o6
-	name = "Captain"
-	name_short = "CAPT"
+	name = "Капитан"
+	name_short = "КПТ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/officer/o6)
 	sort_order = 16
 
 /datum/mil_rank/ec/o8
-	name = "Admiral"
-	name_short = "ADM"
+	name = "Адмирал"
+	name_short = "АДМ"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/officer/o8)
 	sort_order = 18
 
@@ -507,7 +500,7 @@
  *  Army
  *  ====
  */
-/datum/mil_rank/army/e1
+/datum/mil_rank/army/e1 //tbt
 	name = "Private"
 	name_short = "PVT"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/army/enlisted)
@@ -651,13 +644,13 @@
  */
 
 /datum/mil_rank/civ/civ
-	name = "Civilian"
+	name = "Гражданский"
 
 /datum/mil_rank/civ/contractor
-	name = "Contractor"
+	name = "Наёмник"
 
 /datum/mil_rank/civ/synthetic
-	name = "Synthetic"
+	name = "Синтетик"
 
 /*
  *  SolGov Employees
@@ -665,18 +658,18 @@
  */
 
 /datum/mil_rank/sol/gov
-	name = "SolGov Representative"
-	name_short = "SGR"
+	name = "Представитель СолПрава"
+	name_short = "ПСП"
 	accessory = list(/obj/item/clothing/accessory/badge/solgov/representative)
 
 /datum/mil_rank/sol/agent
-	name = "SFP Agent"
-	name_short = "AGT"
+	name = "Спец Агент Сола по Криминалистике"
+	name_short = "САСК"
 	accessory = list(/obj/item/clothing/accessory/badge/agent)
 
 /datum/mil_rank/sol/scientist
-	name = "Government Scientist"
-	name_short = "GOVT"
+	name = "Государственный Научный Сотрудник"
+	name_short = "ГНС"
 
 /*
  *  Terrans
@@ -684,113 +677,113 @@
  */
 
 /datum/mil_rank/terran/e1
-	name = "Sailor Recruit"
-	name_short = "SlrRct"
+	name = "Матрос-Рекрут"
+	name_short = "МтРк"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/enlisted)
 	sort_order = 1
 
 /datum/mil_rank/terran/e3
-	name = "Sailor"
-	name_short = "Slr"
+	name = "Матрос"
+	name_short = "Мт"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/enlisted/e3)
 	sort_order = 3
 
 /datum/mil_rank/terran/e4
-	name = "Bosman"
-	name_short = "Bsn"
+	name = "Боцман"
+	name_short = "Бцм"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/enlisted/e4)
 	sort_order = 4
 
 /datum/mil_rank/terran/e6
-	name = "Starszy Bosman"
-	name_short = "SBsn"
+	name = "Мтарший Боцман"
+	name_short = "СБцм"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/enlisted/e6)
 	sort_order = 6
 
 /datum/mil_rank/terran/e7
-	name = "Glavny Starshina"
-	name_short = "GStr"
+	name = "Главный Страшина"
+	name_short = "ГСтр"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/enlisted/e7)
 	sort_order = 7
 
 /datum/mil_rank/terran/e9
-	name = "Michman"
-	name_short = "Mch"
+	name = "Мичман"
+	name_short = "Мчм"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/enlisted/e9)
 	sort_order = 9
 
 /datum/mil_rank/terran/e9_alt1
-	name = "Michman of the Independent Navy"
-	name_short = "MchNvy"
+	name = "Мичман Независимого Флота"
+	name_short = "МчмНФ"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/enlisted/e9_alt1)
 	sort_order = 9
 
 /datum/mil_rank/terran/o1
-	name = "Ensign"
-	name_short = "ENS"
+	name = "Энсин"
+	name_short = "ЭНС"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/officer)
 	sort_order = 11
 
 /datum/mil_rank/terran/o2
-	name = "Leytenant"
-	name_short = "Lyt"
+	name = "Лейтенант"
+	name_short = "Лтн"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/officer/o2)
 	sort_order = 12
 
 /datum/mil_rank/terran/o3
-	name = "Starshy Leytenant"
-	name_short = "SLyt"
+	name = "Старший Лейтенант"
+	name_short = "СЛтн"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/officer/o3)
 	sort_order = 13
 
 /datum/mil_rank/terran/o4
-	name = "Corvette-Komandor"
-	name_short = "CvtKdr"
+	name = "Корвет-Командор"
+	name_short = "КвтКмд"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/officer/o4)
 	sort_order = 14
 
 /datum/mil_rank/terran/o5
-	name = "Komandor"
-	name_short = "Kdr"
+	name = "Командор"
+	name_short = "Кмд"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/officer/o5)
 	sort_order = 15
 
 /datum/mil_rank/terran/o6
-	name = "Kapitan"
-	name_short = "Kpt"
+	name = "Капитан"
+	name_short = "Кпт"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/officer/o6)
 	sort_order = 16
 
 /datum/mil_rank/terran/o7
-	name = "Kontradmiral"
-	name_short = "KtrAdm"
+	name = "Контр-Адмирал"
+	name_short = "КтрАдм"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/flag)
 	sort_order = 17
 
 /datum/mil_rank/terran/o8
-	name = "Wiceadmiral"
-	name_short = "WcAdm"
+	name = "Вице-Адмирал"
+	name_short = "ВцАдм"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/flag/o8)
 	sort_order = 18
 
 /datum/mil_rank/terran/o9
-	name = "Admiral"
-	name_short = "Adm"
+	name = "Адмирал"
+	name_short = "Адм"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/flag/o9)
 	sort_order = 19
 
 /datum/mil_rank/terran/o10
-	name = "Admiral of the Independent Navy"
-	name_short = "AdmNvy"
+	name = "Адмирал Независимого Флота"
+	name_short = "АдмНФ"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/flag/o10)
 	sort_order = 20
 
 // Vox/foreign alien branch.
 /datum/mil_branch/alien
-	name = "Alien"
-	name_short = "Alien"
+	name = "Чужой"
+	name_short = "Чужой"
 	rank_types = list(/datum/mil_rank/alien)
 	spawn_rank_types = list(/datum/mil_rank/alien)
 
 /datum/mil_rank/alien
-	name = "Alien"
+	name = "Чужой"

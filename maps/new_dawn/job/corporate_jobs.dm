@@ -1,19 +1,18 @@
 /datum/job/liaison
-	title = "Workplace Liaison"
+	title = "Корпоративный Советник"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Corporate Regulations, the Union Charter, and the Expeditionary Corps Organisation"
+	supervisors = "Корпоративные Законы, Устав Союза и Организация Экспедиционного Корпуса"
 	selection_color = "#2f2f7f"
 	economic_power = 15
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	alt_titles = list(
-		"Corporate Liaison",
-		"Union Representative",
-		"Corporate Representative",
-		"Corporate Executive"
+		"Представитель Союза",
+		"Корпоративный Представитель",
+		"Корпоративный Руководитель"
 		)
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/workplace_liaison
 	allowed_branches = list(/datum/mil_branch/civilian)
@@ -31,20 +30,20 @@
 	return "You are the Workplace Liaison. You are a civilian employee of EXO, the Expeditionary Corps Organisation, the government-owned corporate conglomerate that partially funds the Torch. You are on board the vessel to promote corporate interests and protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady corporate shill you always wanted to be."
 
 /datum/job/liaison/post_equip_rank(var/mob/person, var/alt_title)
-	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Executive Assistant")]"]"
+	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Исполнительный Помощник")]"]"
 	for(var/mob/M in GLOB.player_list)
 		if(M.client && M.mind)
-			if(M.mind.assigned_role == "Executive Assistant")
+			if(M.mind.assigned_role == "Исполнительный Помощник")
 				to_chat(M, SPAN_NOTICE("<b>One of your employers, [my_title] named [person.real_name], is present on [GLOB.using_map.full_name].</b>"))
 	..()
 
 /datum/job/bodyguard
-	title = "Executive Assistant"
+	title = "Исполнительный Помощник"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Workplace Liaison"
+	supervisors = "Корпоративный Советник"
 	selection_color = "#3d3d7f"
 	economic_power = 12
 	minimal_player_age = 7
@@ -61,9 +60,9 @@
 	                    SKILL_WEAPONS     = SKILL_MAX,
 	                    SKILL_FORENSICS   = SKILL_MAX)
 	alt_titles = list(
-		"Union Enforcer",
-		"Loss Prevention Associate",
-		"Asset Protection Agent"
+		"Корпоративный Страж Порядка",
+		"Наёмный Надсмотрщик",
+		"Охранный Агент"
 	)
 	skill_points = 20
 	access = list(access_liaison, access_security, access_medical,
@@ -76,17 +75,17 @@
 /datum/job/bodyguard/is_position_available()
 	if(..())
 		for(var/mob/M in GLOB.player_list)
-			if(M.client && M.mind && M.mind.assigned_role == "Workplace Liaison")
+			if(M.client && M.mind && M.mind.assigned_role == "Корпоративный Советник")
 				return TRUE
 	return FALSE
 
 /datum/job/bodyguard/get_description_blurb()
-	return "You are the Executive Assistant. You are an employee of one of the corporations that make up the Expeditionary Corps Organisation, and your job is to assist the Liason in corporate affairs. You are also expected to protect the Liason's life, though not in any way that breaks the law."
+	return "You are the Исполнительный Помощник. You are an employee of one of the corporations that make up the Expeditionary Corps Organisation, and your job is to assist the Liason in corporate affairs. You are also expected to protect the Liason's life, though not in any way that breaks the law."
 
 /datum/job/bodyguard/post_equip_rank(var/mob/person, var/alt_title)
-	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Executive Assistant")]"]"
+	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Исполнительный Помощник")]"]"
 	for(var/mob/M in GLOB.player_list)
 		if(M.client && M.mind)
-			if(M.mind.assigned_role == "Workplace Liaison")
+			if(M.mind.assigned_role == "Корпоративный Советник")
 				to_chat(M, SPAN_NOTICE("<b>Your bodyguard, [my_title] named [person.real_name], is present on [GLOB.using_map.full_name].</b>"))
 	..()

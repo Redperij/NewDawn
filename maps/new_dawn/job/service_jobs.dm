@@ -1,5 +1,5 @@
 /datum/job/chaplain
-	title = "Chaplain"
+	title = "Священнослужитель"
 	department = "Service"
 	department_flag = SRV
 	total_positions = 1
@@ -8,7 +8,7 @@
 	ideal_character_age = 40
 	economic_power = 5
 	minimal_player_age = 0
-	supervisors = "the Executive Officer"
+	supervisors = "Старпом"
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/chaplain
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
@@ -24,16 +24,16 @@
 	minimal_access = list()
 
 /datum/job/janitor
-	title = "Sanitation Technician"
+	title = "Уборщик"
 	department = "Service"
 	department_flag = SRV
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Executive Officer"
+	supervisors = "Старпом"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
 	alt_titles = list(
-		"Janitor")
+		"Коммунальщик")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/janitor
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
@@ -51,18 +51,18 @@
 
 	access = list(access_maint_tunnels, access_emergency_storage, access_janitor, access_solgov_crew)
 	minimal_access = list()
-	
+
 /datum/job/chef
-	title = "Cook"
+	title = "Повар"
 	department = "Service"
 	department_flag = SRV
 	total_positions = 1
 	spawn_positions = 1
 	minimum_character_age = list(SPECIES_HUMAN = 18)
-	supervisors = "the Executive Officer"
+	supervisors = "Старпом"
 	alt_titles = list(
-		"Chef",
-		"Culinary Specialist"
+		"Кок",
+		"Кулинарный Специалист"
 		)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/cook
 	allowed_branches = list(
@@ -84,9 +84,13 @@
 	minimal_access = list()
 
 /datum/job/bartender
+	title = "Бармен"
 	department = "Service"
 	department_flag = SRV
-	supervisors = "the Executive Officer and the Corporate Liaison"
+	supervisors = "Старпом и Корпоративный Советник"
+	alt_titles = list(
+		"Кофевар"
+		)
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 30
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/bartender
@@ -100,12 +104,12 @@
 	                    SKILL_CHEMISTRY = SKILL_BASIC)
 
 /datum/job/crew
-	title = "Crewman"
+	title = "Матрос"
 	department = "Service"
 	department_flag = SRV
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Executive Officer and SolGov Personnel"
+	supervisors = "Старпом и персонал СолПрава"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/crewman

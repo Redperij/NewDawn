@@ -1,6 +1,6 @@
 /datum/job/captain
-	title = "Commanding Officer"
-	supervisors = "the Sol Central Government and the Sol Code of Uniform Justice"
+	title = "Командир"
+	supervisors = "Центральное Правительство Сола и Единый Кодекс Военной Юстиции Сола"
 	minimal_player_age = 14
 	economic_power = 15
 	minimum_character_age = list(SPECIES_HUMAN = 40)
@@ -34,8 +34,8 @@
 	..()
 
 /datum/job/hop
-	title = "Executive Officer"
-	supervisors = "the Commanding Officer"
+	title = "Старпом"
+	supervisors = "Командир"
 	department = "Command"
 	department_flag = COM
 	minimal_player_age = 14
@@ -94,8 +94,8 @@
 	return "You are the Executive Officer. You are an experienced senior officer, second in command of the ship, and are responsible for the smooth operation of the ship under your Commanding Officer. In his absence, you are expected to take his place. Your primary duty is directly managing department heads and all those outside a department heading. You are also responsible for the contractors and passengers aboard the ship. Consider the Senior Enlisted Advisor and Bridge Officers tools at your disposal."
 
 /datum/job/rd
-	title = "Chief Science Officer"
-	supervisors = "the Commanding Officer"
+	title = "Руководитель Исследований"
+	supervisors = "Командир"
 	economic_power = 20
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 35)
@@ -141,8 +141,8 @@
 	return "You are the Chief Science Officer. You are responsible for the research department. You handle the science aspects of the project and liase with the corporate interests of the Expeditionary Corps Organisation. Make sure science gets done, do some yourself, and get your scientists on away missions to find things to benefit the project. Advise the CO on science matters."
 
 /datum/job/cmo
-	title = "Chief Medical Officer"
-	supervisors = "the Commanding Officer and the Executive Officer"
+	title = "Главный Врач"
+	supervisors = "Командир и Старпом"
 	economic_power = 10
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 35)
@@ -184,8 +184,8 @@
 	return "You are the Chief Medical Officer. You manage the medical department. You ensure all members of medical are skilled, tasked and handling their duties. Ensure your doctors are staffing your infirmary and your corpsman/paramedics are ready for response. Act as a second surgeon or backup pharmacist in the absence of either. You are expected to know medical very well, along with general regulations."
 
 /datum/job/chief_engineer
-	title = "Chief Engineer"
-	supervisors = "the Commanding Officer and the Executive Officer"
+	title = "Главный Инженер"
+	supervisors = "Командир и Старпом"
 	economic_power = 9
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 	ideal_character_age = 40
@@ -240,8 +240,8 @@
 	return "You are the Chief Engineer. You manage the Engineering Department. You are responsible for the Senior engineer, who is your right hand and (should be) an experienced, skilled engineer. Delegate to and listen to them. Manage your engineers, ensure vessel power stays on, breaches are patched and problems are fixed. Advise the CO on engineering matters. You are also responsible for the maintenance and control of any vessel synthetics. You are an experienced engineer with a wealth of theoretical knowledge. You should also know vessel regulations to a reasonable degree."
 
 /datum/job/hos
-	title = "Chief of Security"
-	supervisors = "the Commanding Officer and the Executive Officer"
+	title = "Глава Службы Безопасности"
+	supervisors = "Командир и Старпом"
 	economic_power = 8
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 25)
@@ -283,12 +283,12 @@
 	return "You are the Chief of Security. You manage ship security. The Masters at Arms and the Military Police, as well as the Brig Chief and the Forensic Technician. You keep the vessel safe. You handle both internal and external security matters. You are the law. You are subordinate to the CO and the XO. You are expected to know the SCMJ and Sol law and Alert Procedure to a very high degree along with general regulations."
 
 /datum/job/representative
-	title = "SolGov Representative"
+	title = "Представитель СолПрава"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Sol Central Government and the SCG Charter"
+	supervisors = "Центральное Правительство Сола и Устав ЦПСС"
 	selection_color = "#2f2f7f"
 	economic_power = 15
 	minimal_player_age = 0
@@ -309,12 +309,12 @@
 	return "You are the Sol Gov Representative. You are a civilian assigned as both a diplomatic liaison for first contact and foreign affair situations on board. You are also responsible for monitoring for any serious missteps of justice, sol law or other ethical or legal issues aboard and informing and advising the Commanding Officer of them. You are a mid-level bureaucrat. You liaise between the crew and corporate interests on board. Send faxes back to Sol on mission progress and important events."
 
 /datum/job/sea
-	title = "Senior Enlisted Advisor"
+	title = "Вахтенный Начальник"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Commanding Officer and the Executive Officer"
+	supervisors = "Командир и Старпом"
 	selection_color = "#2f2f7f"
 	minimal_player_age = 14
 	economic_power = 8
@@ -356,12 +356,12 @@
 	return "You are the Senior Enlisted Advisor. You are the highest enlisted person on the ship. You are directly subordinate to the CO. You advise them on enlisted concerns and provide expertise and advice to officers. You are responsible for ensuring discipline and good conduct among enlisted, as well as notifying officers of any issues and \"advising\" them on mistakes they make. You also handle various duties on behalf of the CO and XO. You are an experienced enlisted person, very likely equal only in experience to the CO and XO. You know the regulations better than anyone."
 
 /datum/job/bridgeofficer
-	title = "Bridge Officer"
+	title = "Вахтенный Офицер"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Commanding Officer and heads of staff"
+	supervisors = "Командир и остальные главы"
 	selection_color = "#2f2f7f"
 	minimal_player_age = 0
 	economic_power = 7

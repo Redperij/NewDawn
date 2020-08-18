@@ -5,7 +5,7 @@ Synthetic
 /datum/job/cyborg
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "your laws"
+	supervisors = "ваши законы"
 	minimal_player_age = 3
 	allowed_ranks = list(
 		/datum/mil_rank/civ/synthetic
@@ -22,24 +22,24 @@ Civilian
 *******/
 
 /datum/job/assistant
-	title = "Passenger"
+	title = "Пассажир"
 	total_positions = 12
 	spawn_positions = 12
-	supervisors = "the Executive Officer"
+	supervisors = "Старпом"
 	economic_power = 6
 	announced = FALSE
 	alt_titles = list(
-		"Journalist" = /decl/hierarchy/outfit/job/torch/passenger/passenger/journalist,
-		"Historian",
-		"Botanist",
-		"Investor" = /decl/hierarchy/outfit/job/torch/passenger/passenger/investor,
-		"Psychologist" = /decl/hierarchy/outfit/job/torch/passenger/passenger/psychologist,
-		"Naturalist",
-		"Ecologist",
-		"Entertainer",
-		"Independent Observer",
-		"Sociologist",
-		"Trainer")
+		"Журналист" = /decl/hierarchy/outfit/job/torch/passenger/passenger/journalist,
+		"Историк",
+		"Ботаник",
+		"Инвестор" = /decl/hierarchy/outfit/job/torch/passenger/passenger/investor,
+		"Психолог" = /decl/hierarchy/outfit/job/torch/passenger/passenger/psychologist,
+		"Натуралист",
+		"Эколог",
+		"Конферансье",
+		"Независимый Наблюдатель",
+		"Социолог",
+		"Тренер")
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/passenger
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(
@@ -48,13 +48,13 @@ Civilian
 	)
 
 /datum/job/merchant
-	title = "Merchant"
+	title = "Торговец"
 	department = "Civilian"
 	department_flag = CIV
 	total_positions = 2
 	spawn_positions = 2
 	availablity_chance = 30
-	supervisors = "the invisible hand of the market"
+	supervisors = "невидимая рука рынка"
 	ideal_character_age = 30
 	minimal_player_age = 0
 	create_record = 0

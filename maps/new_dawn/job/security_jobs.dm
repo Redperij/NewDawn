@@ -1,8 +1,8 @@
 /datum/job/warden
-	title = "Brig Chief"
+	title = "Надзиратель"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief of Security"
+	supervisors = "Глава Службы Безопасности"
 	economic_power = 5
 	minimal_player_age = 7
 	ideal_character_age = 35
@@ -38,17 +38,17 @@
 							 /datum/computer_file/program/camera_monitor)
 
 /datum/job/detective
-	title = "Forensic Technician"
+	title = "Детектив"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief of Security"
+	supervisors = "Глава Службы Безопасности"
 	economic_power = 5
 	minimal_player_age = 7
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	ideal_character_age = 35
 	skill_points = 14
 	alt_titles = list(
-		"Criminal Investigator"
+		"Следователь"
 	)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech
 	allowed_branches = list(
@@ -88,10 +88,10 @@
 							 /datum/computer_file/program/camera_monitor)
 
 /datum/job/officer
-	title = "Master at Arms"
+	title = "Офицер Службы Безопасности"
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "the Chief of Security"
+	supervisors = "Глава Службы Безопасности"
 	economic_power = 4
 	minimal_player_age = 7
 	minimum_character_age = list(SPECIES_HUMAN = 18)

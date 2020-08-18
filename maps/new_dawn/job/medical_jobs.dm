@@ -1,5 +1,5 @@
 /datum/job/senior_doctor
-	title = "Physician"
+	title = "Старший Врач"
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 2
@@ -7,11 +7,11 @@
 	ideal_character_age = 45
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Chief Medical Officer"
+	supervisors = "Главный Врач"
 	selection_color = "#013d3b"
 	economic_power = 8
 	alt_titles = list(
-		"Surgeon")
+		"Хирург")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -43,7 +43,7 @@
 							 /datum/computer_file/program/camera_monitor)
 
 /datum/job/junior_doctor
-	title = "Medical Resident"
+	title = "Санитар"
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 2
@@ -51,7 +51,7 @@
 	ideal_character_age = 45
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Physicians and the Chief Medical Officer"
+	supervisors = "Главный и Старшие Врачи"
 	selection_color = "#013d3b"
 	economic_power = 6
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
@@ -84,17 +84,17 @@
 							 /datum/computer_file/program/camera_monitor)
 
 /datum/job/doctor
-	title = "Medical Technician"
+	title = "Врач"
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "Physicians and the Chief Medical Officer"
+	supervisors = "Главный и Старшие Врачи"
 	economic_power = 7
 	minimum_character_age = list(SPECIES_HUMAN = 19)
 	ideal_character_age = 40
 	minimal_player_age = 0
 	alt_titles = list(
-		"Paramedic",
-		"Corpsman")
+		"Парамедик",
+		"Фельдшер")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -126,17 +126,17 @@
 	skill_points = 22
 
 /datum/job/medical_trainee
-	title = "Trainee Medical Technician"
+	title = "Интерн"
 	department = "Medical"
 	department_flag = MED
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Medical personnel, and the Chief Medical Officer"
+	supervisors = "Медицинский Пресонал и Главный Врач"
 	selection_color = "#013d3b"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
 	alt_titles = list(
-		"Corpsman Trainee")
+		"Практикант")
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
@@ -170,12 +170,12 @@
 	return "You are a Trainee Medical Technician. You are learning how to treat and recover wounded crew from the more experienced medical personnel aboard. You are subordinate to the rest of the medical team."
 
 /datum/job/chemist
-	title = "Laboratory Technician"
+	title = "Химик"
 	department = "Medical"
 	department_flag = MED
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief Medical Officer, the Corporate Liaison and Medical Personnel"
+	supervisors = "Главный Врач, Корпоративный Советник и Медицинский Персонал"
 	selection_color = "#013d3b"
 	economic_power = 4
 	minimum_character_age = list(SPECIES_HUMAN = 25)
@@ -197,10 +197,10 @@
 	minimal_access = list()
 
 /datum/job/chemist/get_description_blurb()
-	return "You are a Laboratory Technician. You make medicine. You are not a doctor or medic, but have surface level knowledge in those fields. You should not be treating patients, but rather providing the the medicine to do so. You are subordinate to Physicians and Medical Techncians."	
+	return "You are a Laboratory Technician. You make medicine. You are not a doctor or medic, but have surface level knowledge in those fields. You should not be treating patients, but rather providing the the medicine to do so. You are subordinate to Physicians and Medical Techncians."
 
 /datum/job/psychiatrist
-	title = "Counselor"
+	title = "Консультант"
 	total_positions = 1
 	spawn_positions = 1
 	ideal_character_age = 40
@@ -210,10 +210,10 @@
 	supervisors = "the Chief Medical Officer"
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/counselor
 	alt_titles = list(
-		"Psychiatrist",
-		"Psionic Counselor" = /decl/hierarchy/outfit/job/torch/crew/medical/counselor/mentalist,
-		"Mentalist" = /decl/hierarchy/outfit/job/torch/crew/medical/counselor/mentalist
-		
+		"Психиатр",
+		"Советник по Псионике" = /decl/hierarchy/outfit/job/torch/crew/medical/counselor/mentalist,
+		"Менталист" = /decl/hierarchy/outfit/job/torch/crew/medical/counselor/mentalist
+
 	)
 
 	allowed_branches = list(
@@ -240,9 +240,9 @@
 	give_psionic_implant_on_join = FALSE
 
 /datum/job/psychiatrist/equip(var/mob/living/carbon/human/H)
-	if(H.mind.role_alt_title == "Psionic Counselor")
+	if(H.mind.role_alt_title == "Советник по Псионике")
 		psi_faculties = list("[PSI_REDACTION]" = PSI_RANK_OPERANT)
-	if(H.mind.role_alt_title == "Mentalist")
+	if(H.mind.role_alt_title == "Менталист")
 		psi_faculties = list("[PSI_COERCION]" = PSI_RANK_OPERANT)
 	return ..()
 

@@ -1,10 +1,10 @@
 /datum/job/pathfinder
-	title = "Pathfinder"
+	title = "Первопроходец"
 	department = "Exploration"
 	department_flag = EXP
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief Science Officer"
+	supervisors = "Руководитель Исследований"
 	selection_color = "#68099e"
 	minimal_player_age = 1
 	economic_power = 7
@@ -27,8 +27,8 @@
 	skill_points = 22
 
 	access = list(
-		access_pathfinder, access_explorer, access_eva, access_maint_tunnels, access_bridge, access_emergency_storage, 
-		access_guppy_helm, access_solgov_crew, access_expedition_shuttle, access_expedition_shuttle_helm, 
+		access_pathfinder, access_explorer, access_eva, access_maint_tunnels, access_bridge, access_emergency_storage,
+		access_guppy_helm, access_solgov_crew, access_expedition_shuttle, access_expedition_shuttle_helm,
 		access_guppy, access_hangar, access_petrov, access_petrov_helm, access_petrov_analysis, access_petrov_phoron,
 		access_petrov_toxins, access_petrov_chemistry, access_petrov_maint, access_tox, access_tox_storage, access_research,
 		access_xenobiology, access_xenoarch, access_torch_fax
@@ -41,8 +41,8 @@
 	return "You are the Pathfinder. Your duty is to organize and lead the expeditions to away sites, carrying out the EC's Primary Mission. You command Explorers. You make sure that expedition has the supplies and personnel it needs. You can pilot Charon if nobody else provides a pilot. Once on the away mission, your duty is to ensure that anything of scientific interest is brought back to the ship and passed to the relevant research lab."
 
 /datum/job/nt_pilot
-	title = "Shuttle Pilot"
-	supervisors = "the Pathfinder"
+	title = "Пилот Шаттла"
+	supervisors = "Первопроходец"
 	department = "Exploration"
 	department_flag = EXP
 	total_positions = 1
@@ -66,10 +66,10 @@
 	)
 
 	access = list(
-		access_mining_office, access_petrov, access_petrov_helm, access_petrov_analysis, access_petrov_phoron, 
+		access_mining_office, access_petrov, access_petrov_helm, access_petrov_analysis, access_petrov_phoron,
 		access_petrov_toxins, access_petrov_chemistry, access_petrov_maint, access_mining_station, access_expedition_shuttle,
-		access_expedition_shuttle_helm, access_guppy, access_hangar, access_guppy_helm, access_mining, access_pilot, 
-		access_solgov_crew, access_eva, access_explorer, access_tox, access_tox_storage, access_research, access_xenobiology, 
+		access_expedition_shuttle_helm, access_guppy, access_hangar, access_guppy_helm, access_mining, access_pilot,
+		access_solgov_crew, access_eva, access_explorer, access_tox, access_tox_storage, access_research, access_xenobiology,
 		access_xenoarch
 	)
 	min_skill = list(	SKILL_EVA   = SKILL_BASIC,
@@ -79,12 +79,12 @@
 	                    SKILL_SCIENCE     = SKILL_MAX)
 
 /datum/job/explorer
-	title = "Explorer"
+	title = "Исследователь"
 	department = "Exploration"
 	department_flag = EXP
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Commanding Officer, Executive Officer, and Pathfinder"
+	supervisors = "Командир, Старпом и Первопроходец"
 	selection_color = "#68099e"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
@@ -105,7 +105,7 @@
 	access = list(access_explorer, access_maint_tunnels, access_eva, access_emergency_storage,
 		access_guppy_helm, access_solgov_crew, access_expedition_shuttle, access_guppy, access_hangar,
 		access_petrov, access_petrov_analysis, access_petrov_phoron, access_petrov_toxins,
-		access_petrov_chemistry, access_petrov_maint, access_tox, access_tox_storage, access_research, 
+		access_petrov_chemistry, access_petrov_maint, access_tox, access_tox_storage, access_research,
 		access_xenobiology, access_xenoarch
 	)
 

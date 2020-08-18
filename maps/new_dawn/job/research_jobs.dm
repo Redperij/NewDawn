@@ -1,18 +1,18 @@
 /datum/job/senior_scientist
-	title = "Senior Researcher"
+	title = "Старший Научный Сотрудник"
 	department = "Science"
 	department_flag = SCI
 
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief Science Officer"
+	supervisors = "Руководитель Исследований"
 	selection_color = "#633d63"
 	economic_power = 12
 	minimal_player_age = 3
 	minimum_character_age = list(SPECIES_HUMAN = 30)
 	ideal_character_age = 50
 	alt_titles = list(
-		"Research Supervisor")
+		"Помощник Руководителя Исследований")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/senior_scientist
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps
@@ -40,20 +40,20 @@
 	skill_points = 20
 
 /datum/job/scientist
-	title = "Scientist"
+	title = "Научный Сотрудник"
 	total_positions = 6
 	spawn_positions = 6
-	supervisors = "the Chief Science Officer and the Workplace Liaison"
+	supervisors = "Руководитель Исследований и Корпоративный Советник"
 	economic_power = 10
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	ideal_character_age = 45
 	minimal_player_age = 0
 	alt_titles = list(
-		"Xenoarcheologist",
-		"Anomalist",
-		"Researcher",
-		"Xenobiologist",
-		"Xenobotanist"
+		"Ксеноархеолог",
+		"Аномалист",
+		"Учёный",
+		"Ксенобиолог",
+		"Ксеноботаник"
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_COMPUTER    = SKILL_BASIC,
@@ -84,22 +84,22 @@
 	skill_points = 20
 
 /datum/job/scientist_assistant
-	title = "Research Assistant"
+	title = "Научный Ассистент"
 	department = "Science"
 	department_flag = SCI
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "the Chief Science Officer, the Workplace Liaison and science personnel"
+	supervisors = "Руководитель Исследований, Корпоративный Советник и научный персонал"
 	selection_color = "#633d63"
 	economic_power = 3
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 30
 	alt_titles = list(
-		"Custodian" = /decl/hierarchy/outfit/job/torch/passenger/research/assist/janitor,
-		"Testing Assistant" = /decl/hierarchy/outfit/job/torch/passenger/research/assist/testsubject,
-		"Intern",
-		"Clerk",
-		"Field Assistant")
+		"Дежурный" = /decl/hierarchy/outfit/job/torch/passenger/research/assist/janitor,
+		"Подопытный" = /decl/hierarchy/outfit/job/torch/passenger/research/assist/testsubject,
+		"Практикант",
+		"Секретарь",
+		"Практикант")
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research
 	allowed_branches = list(
@@ -123,7 +123,7 @@
 						access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry)
 
 /datum/job/roboticist
-	title = "Roboticist"
+	title = "Робототехник"
 	department = "Science"
 	department_flag = SCI
 
@@ -131,10 +131,10 @@
 	spawn_positions = 2
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 25)
-	supervisors = "the Chief Science Officer and the Workplace Liaison."
+	supervisors = "Руководитель Исследований и Корпоративный Советник."
 	selection_color = "#633d63"
 	economic_power = 6
-	alt_titles = list("Biomechanical Engineer","Mechatronic Engineer")
+	alt_titles = list("Биомеханик")
 	outfit_type = /decl/hierarchy/outfit/job/science/roboticist
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/contractor)

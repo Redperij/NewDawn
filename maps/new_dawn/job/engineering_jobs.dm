@@ -1,10 +1,10 @@
 /datum/job/senior_engineer
-	title = "Senior Engineer"
+	title = "Старший Инженер"
 	department = "Engineering"
 	department_flag = ENG
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief Engineer"
+	supervisors = "Главный Инженер"
 	selection_color = "#5b4d20"
 	economic_power = 6
 	minimal_player_age = 3
@@ -50,19 +50,19 @@
 	return "You are the Senior Engineer. You are a veteran SNCO. You are subordinate to the Chief Engineer though you may have many years more experience than them and your subordinates are the rest of engineering. You should be an expert in practically every engineering area and familiar and possess leadership skills. Coordinate the team and ensure the smooth running of the department along with the Chief Engineer."
 
 /datum/job/engineer
-	title = "Engineer"
+	title = "Инженер"
 	total_positions = 6
 	spawn_positions = 6
-	supervisors = "the Chief Engineer"
+	supervisors = "Главный Инженер"
 	economic_power = 5
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 19)
 	ideal_character_age = 30
 	alt_titles = list(
-		"Engine Technician",
-		"Damage Control Technician",
-		"Electrician",
-		"Atmospheric Technician",
+		"Реакторный Техник",
+		"Механик",
+		"Электрик",
+		"Атмосферный Техник",
 		)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer
 	allowed_branches = list(
@@ -108,12 +108,12 @@
 	return "You are an Engineer. You operate under one of many titles and may be highly specialised in a specific area of engineering. You probably have at least a general familiarity with most other areas though this is not expected. You are subordinate to the Senior Engineer and the Chief Engineer and are expected to follow them."
 
 /datum/job/engineer_trainee
-	title = "Engineer Trainee"
+	title = "Инженер - Стажёр"
 	department = "Engineering"
 	department_flag = ENG
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Chief Engineer and Engineering Personnel"
+	supervisors = "Главынй Инженер и остальные инженеры"
 	selection_color = "#5b4d20"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
