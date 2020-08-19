@@ -22,6 +22,17 @@
 	var/is   = "are"
 	var/does = "do"
 	var/self = "themselves"
+	//Russian ones ( Без Родительного падежа, в нём нет смысла )
+	var/On  = "Они"
+	var/Emu = "Им"
+	var/Ego = "Их"
+	var/Nim = "Ними"
+	var/Nem = "Них"
+	var/on  = "они"
+	var/emu = "им"
+	var/ego = "их"
+	var/nim = "ними"
+	var/nem = "них"
 
 /datum/gender/plural
 	key  = PLURAL
@@ -39,6 +50,17 @@
 	is   = "is"
 	does = "does"
 	self = "himself"
+	//Russian ones
+	On  = "Он"
+	Emu = "Ему"
+	Ego = "Его"
+	Nim = "Ним"
+	Nem = "Нём"
+	on  = "он"
+	emu = "ему"
+	ego = "его"
+	nim = "ним"
+	nem = "нём"
 
 /datum/gender/female
 	key  = FEMALE
@@ -52,6 +74,17 @@
 	is   = "is"
 	does = "does"
 	self = "herself"
+	//Russian ones
+	On  = "Она"
+	Emu = "Ей"
+	Ego = "Её"
+	Nim = "Ней"
+	Nem = "Ней"
+	on  = "она"
+	emu = "ей"
+	ego = "её"
+	nim = "ней"
+	nem = "ней"
 
 /datum/gender/neuter
 	key = NEUTER
@@ -66,3 +99,14 @@
 	is   = "is"
 	does = "does"
 	self = "itself"
+	//Russian ones
+	On  = "Оно"
+	Emu = "Ему"
+	Ego = "Его"
+	Nim = "Ним"
+	Nem = "Нём"
+	on  = "оно"
+	emu = "ему"
+	ego = "его"
+	nim = "ним"
+	nem = "нём"
