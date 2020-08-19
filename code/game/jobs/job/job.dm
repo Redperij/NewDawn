@@ -324,7 +324,7 @@
 	for(var/T in allowed_branches)
 		var/datum/mil_branch/B = mil_branches.get_branch_by_type(T)
 		res += B.name
-	return english_list(res)
+	return russian_list(res)
 
 //Same as above but ranks
 /datum/job/proc/get_ranks(branch)
@@ -335,7 +335,7 @@
 		if(B && !(initial(R.name) in B.ranks))
 			continue
 		res |= initial(R.name)
-	return english_list(res)
+	return russian_list(res)
 
 /datum/job/proc/get_description_blurb()
 	return ""
