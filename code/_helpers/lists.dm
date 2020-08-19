@@ -17,6 +17,14 @@
 		if(2) return "[input[1]][and_text][input[2]]"
 		else  return "[jointext(input, comma_text, 1, -1)][final_comma_text][and_text][input[input.len]]"
 
+//Returns a list in plain russian as a string // Why not?
+/proc/russian_list(var/list/input, nothing_text = "ничего", and_text = " и ", comma_text = ", " )
+	switch(length(input))
+		if(0) return nothing_text
+		if(1) return "[input[1]]"
+		if(2) return "[input[1]][and_text][input[2]]"
+		else  return "[jointext(input, comma_text, 1, -1)][and_text][input[input.len]]"
+
 //Returns list element or null. Should prevent "index out of bounds" error.
 proc/listgetindex(var/list/list,index)
 	if(istype(list) && list.len)
