@@ -1,35 +1,35 @@
 /datum/mob_descriptor/vox_markings
-	name = "neck markings"
-	chargen_label = "neck markings (rank)"
+	name = "отметки на шее"
+	chargen_label = "отметки на шее (ранг)"
 	skip_species_mention = TRUE
 	standalone_value_descriptors = list(
-		"very simplistic",
-		"rather simple",
-		"complex",
-		"moderately complex",
-		"bewilderingly complex"
+		"крайне простые",
+		"незатейливые",
+		"обычные",
+		"сложные",
+		"обезкураживающе комплексные"
 		)
 	chargen_value_descriptors = list(
-		"servitor"  =     1,
-		"labourer" =      2,
-		"cannon fodder" = 3,
-		"raider" =        4,
-		"leader" =        5
+		"слуга"  =     1,
+		"рабочий" =      2,
+		"пушечное мясо" = 3,
+		"рэйдер" =        4,
+		"лидер" =        5
 		)
-	comparative_value_descriptor_equivalent = "around the same importance as yours"
+	comparative_value_descriptor_equivalent = "такой-же важности, как и ваши"
 	comparative_value_descriptors_smaller = list(
-		"slightly less important than yours",
-		"much less important than yours",
-		"insignificant and beneath your notice"
+		"слегка менее важные, нежели ваши",
+		"менее важные, нежели ваши",
+		"незначительны и не достоины вашего внимания"
 		)
 	comparative_value_descriptors_larger = list(
-		"slightly more important than yours",
-		"much more important than yours",
-		"commanding your unquestioning obedience and respect"
+		"слегка более важные, нежели ваши",
+		"более важные, нежели ваши",
+		"означающие необходимость вашего повиновения и уважения"
 		)
 
 /datum/mob_descriptor/vox_markings/get_first_person_message_start()
-	. = "Your neck markings are"
+	. = "Ваши отметки на шее:"
 
 /datum/mob_descriptor/vox_markings/get_third_person_message_start(var/datum/gender/my_gender)
-	. = "[my_gender.His] neck markings are"
+	. = "[my_gender.Ego] отметки на шее:"

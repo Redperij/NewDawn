@@ -72,13 +72,13 @@
 		h_style = pick(valid_hairstyles)
 	else
 		//this shouldn't happen
-		h_style = "Bald"
+		h_style = "Лысый"
 
 	if(valid_facial_hairstyles.len)
 		f_style = pick(valid_facial_hairstyles)
 	else
 		//this shouldn't happen
-		f_style = "Shaved"
+		f_style = "Бритый"
 
 	update_hair()
 

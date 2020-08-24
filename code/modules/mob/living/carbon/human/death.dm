@@ -30,7 +30,7 @@
 	BITSET(hud_updateflag, HEALTH_HUD)
 	BITSET(hud_updateflag, STATUS_HUD)
 	BITSET(hud_updateflag, LIFE_HUD)
-	
+
 	//Handle species-specific deaths.
 	species.handle_death(src)
 
@@ -75,9 +75,9 @@
 	if(MUTATION_HUSK in mutations)	return
 
 	if(f_style)
-		f_style = "Shaved"		//we only change the icon_state of the hair datum, so it doesn't mess up their UI/UE
+		f_style = "Бритый"		//we only change the icon_state of the hair datum, so it doesn't mess up their UI/UE
 	if(h_style)
-		h_style = "Bald"
+		h_style = "Лысый"
 	update_hair(0)
 
 	mutations.Add(MUTATION_HUSK)
@@ -95,9 +95,9 @@
 	if(MUTATION_SKELETON in src.mutations)	return
 
 	if(f_style)
-		f_style = "Shaved"
+		f_style = "Бритый"
 	if(h_style)
-		h_style = "Bald"
+		h_style = "Лысый"
 	update_hair(0)
 
 	mutations.Add(MUTATION_SKELETON)

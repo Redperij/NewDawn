@@ -13,82 +13,82 @@
 	var/list/disallows = list() //A list of other marking types to ban from adding when this marking is already added
 
 /datum/sprite_accessory/marking/tat_hive
-	name = "Tattoo (Hive, Back)"
+	name = "Татуировка (Улей, Спина)"
 	icon_state = "tat_hive"
 	body_parts = list(BP_CHEST)
 
 /datum/sprite_accessory/marking/tat_nightling
-	name = "Tattoo (Nightling, Back)"
+	name = "Татуировка (Найтлинг, Спина)"
 	icon_state = "tat_nightling"
 	body_parts = list(BP_CHEST)
 
 /datum/sprite_accessory/marking/tat_campbell
-	name = "Tattoo (Campbell, R.Arm)"
+	name = "Татуировка (Кэмпбелл, П.Рука)"
 	icon_state = "tat_campbell"
 	body_parts = list(BP_R_ARM)
 
 /datum/sprite_accessory/marking/tat_campbell/left
-	name = "Tattoo (Campbell, L.Arm)"
+	name = "Татуировка (Кэмпбелл, Л.Рука)"
 	body_parts = list(BP_L_ARM)
 
 /datum/sprite_accessory/marking/tat_tiger1
-	name = "Tattoo (Tiger Stripes, Body)"
+	name = "Татуировка (Тигриные Полоски, Тело)"
 	icon_state = "tat_tiger"
 	body_parts = list(BP_CHEST,BP_GROIN)
 
 /datum/sprite_accessory/marking/tat_tiger_arm/left
-	name = "Tattoo (Tiger Left Arm)"
+	name = "Татуировка (Тигр Левая Рука)"
 	icon_state = "tat_tiger"
 	body_parts = list(BP_L_ARM)
 
 /datum/sprite_accessory/marking/tat_tiger_arm/right
-	name = "Tattoo (Tiger Right Arm)"
+	name = "Татуировка (Тигр Правая Рука)"
 	icon_state = "tat_tiger"
 	body_parts = list(BP_R_ARM)
 
 /datum/sprite_accessory/marking/tat_tiger_leg
-	name = "Tattoo (Tiger Left Leg)"
+	name = "Татуировка (Тигр Левая Нога)"
 	icon_state = "tat_tiger"
 	body_parts = list(BP_L_LEG)
 
 /datum/sprite_accessory/marking/tat_tiger_leg/right
-	name = "Tattoo (Tiger Right Leg)"
+	name = "Татуировка (Тигр Правая Нога)"
 	icon_state = "tat_tiger"
 	body_parts = list(BP_R_LEG)
 
 /datum/sprite_accessory/marking/tigerhead
-	name = "Tattoo (Tiger Head)"
+	name = "Татуировка (Тигр Голова)"
 	icon_state = "tigerhead"
 	body_parts = list(BP_HEAD)
 
 /datum/sprite_accessory/marking/tat_bands_body
-	name = "Tattoo (Bands Body)"
+	name = "Татуировка (Полоски Тело)"
 	icon_state = "bands"
 	body_parts = list(BP_CHEST,BP_GROIN)
 
 /datum/sprite_accessory/marking/tat_bands_arm/right
-	name = "Tattoo (Bands Right Arm)"
+	name = "Татуировка (Полоски Правая Рука)"
 	icon_state = "bands"
 	body_parts = list(BP_R_ARM)
 
 /datum/sprite_accessory/marking/tat_bands_arm/left
-	name = "Tattoo (Bands Left Arm)"
+	name = "Татуировка (Полоски Левая Рука)"
 	icon_state = "bands"
 	body_parts = list(BP_L_ARM)
 
 /datum/sprite_accessory/marking/tat_bands_hand/right
-	name = "Tattoo (Bands Right Hand)"
+	name = "Татуировка (Полоски Правая Кисть)"
 	icon_state = "bands"
 	body_parts = list(BP_R_HAND)
 /datum/sprite_accessory/marking/tat_bands_hand/left
-	name = "Tattoo (Bands Left Hand)"
+	name = "Татуировка (Полоски Левая Кисть)"
 	icon_state = "bands"
 	body_parts = list(BP_L_HAND)
 /datum/sprite_accessory/marking/tat_bands_leg/right
-	name = "Tattoo (Bands Right Leg)"
+	name = "Татуировка (Полоски Правая Нога)"
 	icon_state = "bands"
 	body_parts = list(BP_R_LEG)
 /datum/sprite_accessory/marking/tat_bands_leg/left
-	name = "Tattoo (Bands Left Leg)"
+	name = "Татуировка (Полоски Левая Нога)"
 	icon_state = "bands"
 	body_parts = list(BP_L_LEG)

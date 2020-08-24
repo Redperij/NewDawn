@@ -262,10 +262,10 @@
 					if(!lying)
 						emote("collapse")
 				if(prob(5) && prob(100 * RADIATION_SPEED_COEFFICIENT) && species.get_bodytype(src) == SPECIES_HUMAN) //apes go bald
-					if((h_style != "Bald" || f_style != "Shaved" ))
+					if((h_style != "Лысый" || f_style != "Бритый" ))
 						to_chat(src, "<span class='warning'>Your hair falls out.</span>")
-						h_style = "Bald"
-						f_style = "Shaved"
+						h_style = "Лысый"
+						f_style = "Бритый"
 						update_hair()
 
 		if (radiation > 75)
@@ -285,7 +285,7 @@
 		damage = Floor(damage * species.get_radiation_mod(src))
 		if(damage)
 			adjustToxLoss(damage * RADIATION_SPEED_COEFFICIENT)
-			immunity = max(0, immunity - damage * 15 * RADIATION_SPEED_COEFFICIENT) 
+			immunity = max(0, immunity - damage * 15 * RADIATION_SPEED_COEFFICIENT)
 			updatehealth()
 			if(!isSynthetic() && organs.len)
 				var/obj/item/organ/external/O = pick(organs)

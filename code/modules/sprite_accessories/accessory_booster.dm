@@ -17,32 +17,32 @@
 
 /datum/sprite_accessory/marking/booster/ears/cat
 	icon_state = "ears_cat"
-	name = "Ear Biomods (Cat)"
+	name = "Биомод-ые уши (Кот)"
 
 /datum/sprite_accessory/marking/booster/ears/rabbit
 	icon_state = "ears_bun"
-	name = "Ear Biomods (Rabbit)"
+	name = "Биомод-ые уши (Кролик)"
 
 /datum/sprite_accessory/marking/booster/horns/ram
 	icon_state = "horns_ram"
-	name = "Horn Biomods (Ram)"
+	name = "Биомод-ые рога (Баран)"
 
 /datum/sprite_accessory/marking/booster/horns/unathi
 	icon_state = "horns_unathi"
-	name = "Horn Biomods (Unathi)"
+	name = "Биомод-ые рога (Унатх)"
 
 /datum/sprite_accessory/marking/booster/horns/spines_short
 	icon_state = "horns_spines_short"
-	name = "Horn Biomods (Short Spines)"
+	name = "Биомод-ые рога (Короткие Шипы)"
 
 /datum/sprite_accessory/marking/booster/horns/spines_long
 	icon_state = "horns_spines_long"
-	name = "Horn Biomods (Long Spines)"
+	name = "Биомод-ые рога (Длинные Шипы)"
 
 /datum/sprite_accessory/marking/booster/horns/frills_long
 	icon_state = "horns_frills_long"
-	name = "Horn Biomods (Long Frills)"
+	name = "Биомод-ые рога (Длинные Кожные Складки)"
 
 /datum/sprite_accessory/marking/booster/horns/frills_short
 	icon_state = "horns_frills_short"
-	name = "Horn Biomods (Short Frills)"
+	name = "Биомод-ые рога (Короткие Кожные Складки)"

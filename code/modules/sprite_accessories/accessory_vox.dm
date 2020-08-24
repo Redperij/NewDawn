@@ -1,17 +1,17 @@
 /datum/sprite_accessory/hair/vox
-	name = "Long Vox Quills"
+	name = "Длинные Вокские Перья"
 	icon = 'icons/mob/human_races/species/vox/hair.dmi'
 	icon_state = "vox_longquills"
 	species_allowed = list(SPECIES_VOX)
 
 /datum/sprite_accessory/hair/vox/short
-	name = "Short Vox Quills"
+	name = "Короткие Вокские Перья"
 	icon_state = "vox_shortquills"
 
 /datum/sprite_accessory/hair/vox/mohawk
-	name = "Vox Mohawk"
+	name = "Могавк Воксов"
 	icon_state = "vox_mohawk"
 
 /datum/sprite_accessory/hair/vox/stubble
-	name = "Vox Stubble"
+	name = "Вокская Щетина"
 	icon_state = "vox_stubble"

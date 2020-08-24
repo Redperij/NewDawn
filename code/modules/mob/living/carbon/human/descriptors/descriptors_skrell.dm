@@ -18,10 +18,10 @@
 	. = "[my_gender.His] headtails are"
 
 /datum/mob_descriptor/headtail_length/get_comparative_value_string_equivalent(var/my_value, var/datum/gender/my_gender, var/datum/gender/other_gender)
-	. = "indicating [other_gender.he] [other_gender.is] [my_value == 1 ? "male" : "female"] like you"
+	. = ", следовательно [other_gender.on] [my_value == 1 ? "male" : "female"] пола, как и вы"
 
 /datum/mob_descriptor/headtail_length/get_comparative_value_string_smaller(var/value, var/datum/gender/my_gender, var/datum/gender/other_gender)
-	. = "indicating [other_gender.he] [other_gender.is] male"
+	. = ", следовательно [other_gender.on] мужского пола"
 
 /datum/mob_descriptor/headtail_length/get_comparative_value_string_larger(var/value, var/datum/gender/my_gender, var/datum/gender/other_gender)
-	. = "indicating [other_gender.he] [other_gender.is] female"
+	. = ", следовательно [other_gender.on] женского пола"

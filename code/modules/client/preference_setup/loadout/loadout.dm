@@ -193,7 +193,7 @@ var/list/gear_datums = list()
 					jobchecks += "<font color=cc5555>[J.title]</font>"
 					bad_job = 1
 			allowed = good_job || !bad_job
-			entry += "[english_list(jobchecks)]</i>"
+			entry += "[russian_list(jobchecks)]</i>"
 
 		if(allowed && G.allowed_branches)
 			var/list/branches = list()
@@ -213,7 +213,7 @@ var/list/gear_datums = list()
 						branch_checks += "<font color=cc5555>[player_branch.name]</font>"
 				allowed = good_branch
 
-				entry += "[english_list(branch_checks)]</i>"
+				entry += "[russian_list(branch_checks)]</i>"
 
 		if(allowed && G.allowed_skills)
 			var/list/skills_required = list()//make it into instances? instead of path
@@ -403,10 +403,10 @@ var/list/gear_datums = list()
 
 	var/atom/placed_in = H.equip_to_storage(item)
 	if(placed_in)
-		to_chat(H, "<span class='notice'>Placing \the [item] in your [placed_in.name]!</span>")
+		to_chat(H, "<span class='notice'>Кладём [item] в [placed_in.name]!</span>")
 	else if(H.equip_to_appropriate_slot(item))
-		to_chat(H, "<span class='notice'>Placing \the [item] in your inventory!</span>")
+		to_chat(H, "<span class='notice'>Кладём [item] в ваш инвентарь!</span>")
 	else if(H.put_in_hands(item))
-		to_chat(H, "<span class='notice'>Placing \the [item] in your hands!</span>")
+		to_chat(H, "<span class='notice'>Кладём [item] в ваши руки!</span>")
 	else
-		to_chat(H, "<span class='danger'>Dropping \the [item] on the ground!</span>")
+		to_chat(H, "<span class='danger'>Сбрасываем [item] на пол!</span>")

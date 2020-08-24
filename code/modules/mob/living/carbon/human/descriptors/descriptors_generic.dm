@@ -1,45 +1,45 @@
 /datum/mob_descriptor/height
-	name = "height"
+	name = "высота"
 	standalone_value_descriptors = list(
-		"very short",
-		"short",
-		"of average height",
-		"tall",
-		"very tall"
+		"очень короткий",
+		"короткий",
+		"среднего роста",
+		"высокий",
+		"очень высокий"
 		)
-	comparative_value_descriptor_equivalent = "around the same height as you"
+	comparative_value_descriptor_equivalent = "примерно того-же роста"
 	comparative_value_descriptors_smaller = list(
-		"slightly shorter than you",
-		"shorter than you",
-		"much shorter than you",
-		"tiny and insignificant next to you"
+		"слегка короче вас",
+		"короче вас",
+		"в разы короче вас",
+		"низкий и незначительный по сравнению с вами"
 		)
 	comparative_value_descriptors_larger = list(
-		"slightly taller than you",
-		"taller than you",
-		"much taller than you",
-		"towering over you"
+		"слегка выше вас",
+		"выше вас",
+		"в разы выше вас",
+		"Гуливер, по сравнению с вами"
 		)
 
 /datum/mob_descriptor/build
-	name = "build"
-	comparative_value_descriptor_equivalent = "around the same build as you"
+	name = "строение"
+	comparative_value_descriptor_equivalent = "примерно того-же строения"
 	standalone_value_descriptors = list(
-		"rail thin",
-		"thin",
-		"of average build",
-		"well-built",
-		"heavily built"
+		"очень хилый",
+		"хилый",
+		"среднего строения",
+		"хорошо-построенный",
+		"мускулистый"
 		)
 	comparative_value_descriptors_smaller = list(
-		"a bit smaller in build than you",
-		"smaller in build than you",
-		"much smaller in build than you",
-		"dwarfed by your bulk"
+		"слегка хилее вас",
+		"хилее вас",
+		"намного хилее вас",
+		"доходяга, по сравнению с вами"
 		)
 	comparative_value_descriptors_larger = list(
-		"slightly larger than you in build",
-		"built larger than you",
-		"built much larger than you",
-		"dwarfing you"
+		"слегка лучше построен, чем вы",
+		"лучше построен, чем вы",
+		"в разы лучше выстроен, чем вы",
+		"затмевающий вас"
 		)

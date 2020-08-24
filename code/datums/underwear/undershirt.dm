@@ -4,210 +4,210 @@
 
 /datum/category_item/underwear/undershirt/none
 	is_default = TRUE
-	name = "None"
+	name = "Никакой"
 	always_last = TRUE
 	underwear_type = null
 
 /datum/category_item/underwear/undershirt/shirt
-	name = "Shirt"
+	name = "Майка"
 	icon_state = "undershirt"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/shirt_long
-	name = "Long Shirt"
+	name = "Длинная Майка"
 	icon_state = "undershirt_long"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/tank_top
-	name = "Tank top"
+	name = "Безрукавка"
 	underwear_name = "tank top"
 	icon_state = "tanktop"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/tank_top_alt
-	name = "Tank top, alt"
+	name = "Безрукавка, альт"
 	underwear_name = "tank top"
 	icon_state = "tanktop_alt"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/tank_top_fleet
-	name = "Tank top, Fleet"
+	name = "Безрукавка, Флот"
 	underwear_name = "tank top"
 	icon_state = "tank_fleet"
 
 /datum/category_item/underwear/undershirt/tank_top_expedition
-	name = "Tank top, Expeditionary Corps"
+	name = "Безрукавка, Экспедиционный Корпус"
 	underwear_name = "tank top"
 	icon_state = "tank_expedition"
 
 /datum/category_item/underwear/undershirt/tank_top_fire
-	name = "Tank top, fire"
+	name = "Безрукавка, огонь"
 	underwear_name = "tank top"
 	icon_state = "tank_fire"
 
 /datum/category_item/underwear/undershirt/tank_top_rainbow
-	name = "Tank top, rainbow"
+	name = "Безрукавка, радуга"
 	underwear_name = "tank top"
 	icon_state = "tank_rainbow"
 
 /datum/category_item/underwear/undershirt/tank_top_stripes
-	name = "Tank top, striped"
+	name = "Безрукавка в полоску"
 	underwear_name = "tank top"
 	icon_state = "tank_stripes"
 
 /datum/category_item/underwear/undershirt/tank_top_sun
-	name = "Tank top, sun"
+	name = "Безрукавка, Солнце"
 	underwear_name = "tank top"
 	icon_state = "tank_sun"
 
 /datum/category_item/underwear/undershirt/shirt_button
-	name = "Shirt, button down"
+	name = "Рубашка"
 	icon_state = "shirt_long"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/shirt_expedition
-	name = "Shirt, Expeditionary Corps"
+	name = "Рубашка, Экспедиционный Корпус"
 	icon_state = "expedition"
 
 /datum/category_item/underwear/undershirt/shirt_heart
-	name = "Shirt, heart"
+	name = "Рубашка, сердце"
 	icon_state = "lover"
 
 /datum/category_item/underwear/undershirt/shirt_love_nt
-	name = "Shirt, I<3NT"
+	name = "Рубашка, I<3NT"
 	icon_state = "ilovent"
 
 /datum/category_item/underwear/undershirt/shirt_fleet
-	name = "Shirt, Fleet"
+	name = "Рубашка, Флот"
 	icon_state = "fleet"
 
 /datum/category_item/underwear/undershirt/shirt_army
-	name = "Shirt, Army"
+	name = "Рубашка, Армейская"
 	icon_state = "army"
 
 /datum/category_item/underwear/undershirt/shirt_nt
-	name = "Shirt, NT"
+	name = "Рубашка, NT"
 	icon_state = "shirt_nano"
 
 /datum/category_item/underwear/undershirt/shortsleeve_shirt
-	name = "Shortsleeve shirt"
+	name = "Рубашка с короткими рукавами"
 	icon_state = "shortsleeve"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/polo_shirt
-	name = "Polo shirt"
+	name = "Рубашка Поло"
 	icon_state = "polo"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/sport_shirt_green
-	name = "Sport shirt, green"
+	name = "Спортивная майка, зелёная"
 	icon_state = "greenshirtsport"
 
 /datum/category_item/underwear/undershirt/sport_shirt_red
-	name = "Sport shirt, red"
+	name = "Спортивная майка, красная"
 	icon_state = "redshirtsport"
 
 /datum/category_item/underwear/undershirt/sport_shirt_blue
-	name = "Sport shirt, blue"
+	name = "Спортивная майка, синяя"
 	icon_state = "blueshirtsport"
 
 /datum/category_item/underwear/undershirt/shirt_tiedye
-	name = "Shirt, tiedye"
+	name = "Рубашка, покрашенная"
 	icon_state = "shirt_tiedye"
 
 /datum/category_item/underwear/undershirt/shirt_blue_striped
-	name = "Shirt, blue stripes"
+	name = "Рубашка, синие полоски"
 	icon_state = "shirt_stripes"
 
 /datum/category_item/underwear/undershirt/longjon
-	name = "Long John Shirt"
+	name = "Обтягивающая майка"
 	underwear_name = "long johns"
 	icon_state = "ljont"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/longstripe_black
-	name = "Longsleeve Striped Shirt, Black"
+	name = "Майка, Чёрная"
 	icon_state = "longstripe"
 
 /datum/category_item/underwear/undershirt/longstripe_blue
-	name = "Longsleeve Striped Shirt, Blue"
+	name = "Майка, Синяя"
 	icon_state = "longstripe_blue"
 
 /datum/category_item/underwear/undershirt/blouse_female
-	name = "Women's Dress Shirt"
+	name = "Женская Блузка"
 	icon_state = "blouse_female"
 
 /datum/category_item/underwear/undershirt/undershirt_female
-	name = "Undershirt, Female"
+	name = "Женская Майка"
 	icon_state = "undershirt_female"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/tanktop_female
-	name = "Tanktop, Female"
+	name = "Женская Безрукавка"
 	icon_state = "tanktop_female"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/shortsleeve_female
-	name = "Shortsleeve Shirt, Female"
+	name = "Женская рубашка с короткими рукавами"
 	icon_state = "shortsleeve_female"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/shirt_long_female
-	name = "Button Down Shirt, Female"
+	name = "Женская рубашка"
 	icon_state = "shirt_long_female"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/undershirt_long_female
-	name = "Longsleeve Shirt, Female"
+	name = "Женскаяч рубашка с длинными рукавами"
 	icon_state = "undershirt_long_female"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/turtleneck
-	name = "Turtleneck Sweater"
+	name = "Свитер"
 	icon_state = "turtleneck"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/tanktop_alt_female
-	name = "Tanktop alt, Female"
+	name = "Женская Безрукавка, альт"
 	underwear_name = "tanktop"
 	icon_state = "tanktop_alt_female"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/polo_female
-	name = "Polo, Female"
+	name = "Женское Поло"
 	icon_state = "polo_female"
 	has_color = TRUE
 
 /datum/category_item/underwear/undershirt/tank_fleet_female
-	name = "Tank top, Fleet, Female"
+	name = "Женская Безрукавка, Флот"
 	underwear_name = "tanktop"
 	icon_state = "tank_fleet_female"
 
 /datum/category_item/underwear/undershirt/fleet_female
-	name = "Shirt, Fleet, Female"
+	name = "Женская Рубашка, Флот"
 	icon_state = "fleet_female"
 
 /datum/category_item/underwear/undershirt/army_female
-	name = "Shirt, Army, Female"
+	name = "Женская Рубашка, Армейская"
 	icon_state = "army_female"
 
 /datum/category_item/underwear/undershirt/expedition_female
-	name = "Shirt, Expeditionary Corps, Female"
+	name = "Женская Рубашка, Экспедиционный Корпус"
 	icon_state = "expedition_female"
 
 /datum/category_item/underwear/undershirt/tank_top_expedition_female
-	name = "Tank top, Expeditionary Corps, Female"
+	name = "Женская Безрукавка, Экспедиционный Корпус"
 	underwear_name = "tank top"
 	icon_state = "tank_expedition_female"
 
 /datum/category_item/underwear/undershirt/polo_corp
-	name = "Polo, corporate"
+	name = "Корпоративное Поло"
 	icon_state = "corp_polo"
 
 /datum/category_item/underwear/undershirt/polo_nt
-	name = "Polo, NanoTrasen"
+	name = "Поло, НаноТрайзен"
 	icon_state = "ntpolo"
 
 /datum/category_item/underwear/undershirt/polo_dais
-	name = "Polo, Deimos Advanced Information Systems"
+	name = "Поло, Deimos Advanced Information Systems"
 	icon_state = "dais_polo"

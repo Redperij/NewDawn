@@ -25,7 +25,7 @@
 	return mobs
 
 proc/random_hair_style(gender, species = SPECIES_HUMAN)
-	var/h_style = "Bald"
+	var/h_style = "Лысый"
 
 	var/datum/species/mob_species = all_species[species]
 	var/list/valid_hairstyles = mob_species.get_hair_styles()
@@ -35,7 +35,7 @@ proc/random_hair_style(gender, species = SPECIES_HUMAN)
 	return h_style
 
 proc/random_facial_hair_style(gender, var/species = SPECIES_HUMAN)
-	var/f_style = "Shaved"
+	var/f_style = "Бритый"
 	var/datum/species/mob_species = all_species[species]
 	var/list/valid_facialhairstyles = mob_species.get_facial_hair_styles(gender)
 	if(valid_facialhairstyles.len)

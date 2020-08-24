@@ -40,8 +40,8 @@
 
 	var/organs_icon		//species specific internal organs icons
 
-	var/default_h_style = "Bald"
-	var/default_f_style = "Shaved"
+	var/default_h_style = "Лысый"
+	var/default_f_style = "Бритый"
 
 	var/race_key = 0                          // Used for mob icon cache string.
 	var/icon_template = 'icons/mob/human_races/species/template.dmi' // Used for mob icon generation for non-32x32 species.
@@ -227,7 +227,7 @@
 	var/list/base_auras
 
 	var/sexybits_location	//organ tag where they are located if they can be kicked for increased pain
-	
+
 	var/job_skill_buffs = list()				// A list containing jobs (/datum/job), with values the extra points that job receives.
 
 	var/list/descriptors = list(
@@ -256,7 +256,7 @@
 		list(/decl/emote/audible/grunt, /decl/emote/audible/groan) = 10,
 	)
 
-	
+
 	var/exertion_effect_chance = 0
 	var/exertion_hydration_scale = 0
 	var/exertion_nutrition_scale = 0

@@ -1,48 +1,48 @@
 /datum/sprite_accessory/hair/una
-	name = "Demon Horns"
+	name = "Демонические Рога"
 	icon = 'icons/mob/human_races/species/unathi/hair.dmi'
 	icon_state = "demon_horn"
 	blend = ICON_MULTIPLY
 	species_allowed = list(SPECIES_UNATHI)
 
 /datum/sprite_accessory/hair/una/spines_long
-	name = "Long Unathi Spines"
+	name = "Длинные Унатхские Шипы"
 	icon_state = "soghun_longspines"
 
 /datum/sprite_accessory/hair/una/spines_short
-	name = "Short Unathi Spines"
+	name = "Короткие Унатхские Шипы"
 	icon_state = "soghun_shortspines"
 
 /datum/sprite_accessory/hair/una/frills_long
-	name = "Long Unathi Frills"
+	name = "Длинные Унатхские Кожные Складки"
 	icon_state = "soghun_longfrills"
 
 /datum/sprite_accessory/hair/una/frills_short
-	name = "Short Unathi Frills"
+	name = "Короткие Унатхские Кожные Складки"
 	icon_state = "soghun_shortfrills"
 
 /datum/sprite_accessory/hair/una/horns
-	name = "Unathi Horns"
+	name = "Унатхские Рога"
 	icon_state = "soghun_horns"
 
 /datum/sprite_accessory/hair/una/swept_horn
-	name = "Swept Horns"
+	name = "Загнутые Рога"
 	icon_state = "swept_horn"
 
 /datum/sprite_accessory/hair/una/ram_horn
-	name = "Ram Horns"
+	name = "Бараньи Рога"
 	icon_state = "ram_horn"
 
 /datum/sprite_accessory/hair/una/fin_hawk
-	name = "Fin Hawk"
+	name = "Плавник"
 	icon_state = "fin_hawk"
 
 /datum/sprite_accessory/hair/una/exotic
-	name = "Exotic Frills"
+	name = "Экзотические Кожные Складки"
 	icon_state = "big_frills"
 
 /datum/sprite_accessory/skin/unathi
-	name = "Default Unathi skin"
+	name = "Стандартная Унатхская Чешуя"
 	icon_state = "default"
 	icon = 'icons/mob/human_races/species/unathi/body.dmi'
 	species_allowed = list(SPECIES_UNATHI)

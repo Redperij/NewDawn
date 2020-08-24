@@ -287,33 +287,33 @@
 #define CORPSE_CAN_REENTER 1
 #define CORPSE_CAN_REENTER_AND_RESPAWN 2
 
-#define SPECIES_HUMAN       "Human"
-#define SPECIES_DIONA       "Diona"
-#define SPECIES_VOX         "Vox"
-#define SPECIES_VOX_ARMALIS "Vox Armalis"
-#define SPECIES_IPC         "Machine"
-#define SPECIES_UNATHI      "Unathi"
-#define SPECIES_SKRELL      "Skrell"
-#define SPECIES_PROMETHEAN  "Promethean"
-#define SPECIES_ALIEN       "Humanoid"
-#define SPECIES_ADHERENT    "Adherent"
-#define SPECIES_GOLEM       "Golem"
-#define SPECIES_YEOSA       "Yeosa'Unathi"
-#define SPECIES_VATGROWN    "Vat-Grown Human"
-#define SPECIES_SPACER      "Space-Adapted Human"
-#define SPECIES_TRITONIAN   "Tritonian"
-#define SPECIES_GRAVWORLDER "Grav-Adapted Human"
-#define SPECIES_MULE        "Mule"
-#define SPECIES_BOOSTER     "Booster"
+#define SPECIES_HUMAN       "Человек"
+#define SPECIES_DIONA       "Диона"
+#define SPECIES_VOX         "Вокс"
+#define SPECIES_VOX_ARMALIS "Вокс Армалис"
+#define SPECIES_IPC         "Машина"
+#define SPECIES_UNATHI      "Унатхи"
+#define SPECIES_SKRELL      "Скрелл"
+#define SPECIES_PROMETHEAN  "Прометеец"
+#define SPECIES_ALIEN       "Гуманоид"
+#define SPECIES_ADHERENT    "Адхерант"
+#define SPECIES_GOLEM       "Голем"
+#define SPECIES_YEOSA       "Йоза'Унатхи"
+#define SPECIES_VATGROWN    "Искусственно-Выращенный Человек"
+#define SPECIES_SPACER      "Космо-Адаптировавшийся Человек"
+#define SPECIES_TRITONIAN   "Тритонец"
+#define SPECIES_GRAVWORLDER "Грав-Адаптировавшийся Человек"
+#define SPECIES_MULE        "Мул"
+#define SPECIES_BOOSTER     "Бустер"
 
 #define UNRESTRICTED_SPECIES list(SPECIES_HUMAN, SPECIES_DIONA, SPECIES_IPC, SPECIES_UNATHI, SPECIES_SKRELL, SPECIES_TRITONIAN, SPECIES_SPACER, SPECIES_VATGROWN, SPECIES_GRAVWORLDER, SPECIES_BOOSTER, SPECIES_MULE)
 #define RESTRICTED_SPECIES   list(SPECIES_VOX, SPECIES_ALIEN, SPECIES_GOLEM, SPECIES_MANTID_GYNE, SPECIES_MANTID_ALATE, SPECIES_MONARCH_WORKER, SPECIES_MONARCH_QUEEN)
 
-#define SPECIES_NABBER         "giant armoured serpentid"
-#define SPECIES_MONARCH_WORKER "Monarch Serpentid Worker"
-#define SPECIES_MONARCH_QUEEN  "Monarch Serpentid Queen"
-#define SPECIES_MANTID_ALATE   "Kharmaan Alate"
-#define SPECIES_MANTID_GYNE    "Kharmaan Gyne"
+#define SPECIES_NABBER         "Гиганский Бронированный Серпентид"
+#define SPECIES_MONARCH_WORKER "Серпентид-Монарх Рабочий"
+#define SPECIES_MONARCH_QUEEN  "Серпентид-Монарх Королева"
+#define SPECIES_MANTID_ALATE   "Алат-Кхармаан"
+#define SPECIES_MANTID_GYNE    "Гиина-Кхармаан"
 
 #define SURGERY_CLOSED 0
 #define SURGERY_OPEN 1
