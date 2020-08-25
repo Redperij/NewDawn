@@ -52,8 +52,6 @@ datum/preferences
 	. += "<b>Пол:</b> <a href='?src=\ref[src];gender=1'><b>[gender2text(pref.gender)]</b></a><br>"
 	. += "<b>Возраст:</b> <a href='?src=\ref[src];age=1'>[pref.age]</a><br>"
 	. += "<b>Место Появления</b>: <a href='?src=\ref[src];spawnpoint=1'>[pref.spawnpoint]</a>"
-	if(config.allow_Metadata)
-		. += "<br><b>OOC Заметки:</b> <a href='?src=\ref[src];metadata=1'> Редактировать </a>"
 	. = jointext(.,null)
 
 /datum/category_item/player_setup_item/physical/basic/OnTopic(var/href,var/list/href_list, var/mob/user)
@@ -104,11 +102,5 @@ datum/preferences
 		if(!choice || !spawntypes()[choice] || !CanUseTopic(user))	return TOPIC_NOACTION
 		pref.spawnpoint = choice
 		return TOPIC_REFRESH
-
-	else if(href_list["metadata"])
-		var/new_metadata = sanitize(input(user, "Впишите любую информацию для других игроков, как, к примеру, Предпочтения отыгрыша:", "Игровые Предпочтения" , pref.metadata) as message|null)
-		if(new_metadata && CanUseTopic(user))
-			pref.metadata = new_metadata
-			return TOPIC_REFRESH
 
 	return ..()

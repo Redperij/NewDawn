@@ -105,6 +105,7 @@ Class Procs:
 	var/interact_offline = 0 // Can the machine be interacted with while de-powered.
 	var/clicksound			// sound played on succesful interface use by a carbon lifeform
 	var/clickvol = 40		// sound played on succesful interface use
+	var/next_clicksound = 0 // value to compare with world.time for whether to play clicksound according to CLICKSOUND_INTERVAL
 	var/core_skill = SKILL_DEVICES //The skill used for skill checks for this machine (mostly so subtypes can use different skills).
 	var/operator_skill      // Machines often do all operations on Process(). This caches the user's skill while the operations are running.
 	var/base_type           // For mapped buildable types, set this to be the base type actually buildable.
@@ -223,7 +224,8 @@ Class Procs:
 		return STATUS_CLOSE
 
 	if(user.direct_machine_interface(src))
-		if (silicon_restriction && issilicon(user))
+		var/mob/living/silicon/silicon = user
+		if (silicon_restriction && ismachinerestricted(silicon))
 			if (silicon_restriction == STATUS_CLOSE)
 				to_chat(user, SPAN_WARNING("Remote AI systems detected. Firewall protections forbid remote AI access."))
 			return silicon_restriction
@@ -399,7 +401,8 @@ Class Procs:
 
 /obj/machinery/CouldUseTopic(var/mob/user)
 	..()
-	if(clicksound && istype(user, /mob/living/carbon))
+	if(clicksound && world.time > next_clicksound && istype(user, /mob/living/carbon))
+		next_clicksound = world.time + CLICKSOUND_INTERVAL
 		playsound(src, clicksound, clickvol)
 
 /obj/machinery/proc/display_parts(mob/user)

@@ -69,11 +69,15 @@
 
 #define isspace(A) istype(A, /area/space)
 
+#define isspaceturf(A) istype(A, /turf/space)
+
 #define ispAI(A) istype(A, /mob/living/silicon/pai)
 
 #define isrobot(A) istype(A, /mob/living/silicon/robot)
 
 #define issilicon(A) istype(A, /mob/living/silicon)
+
+#define ismachinerestricted(A) (issilicon(A) && A.machine_restriction)
 
 #define isslime(A) istype(A, /mob/living/carbon/slime)
 
@@ -125,6 +129,8 @@
 #define RANDOM_BLOOD_TYPE pick(4;"O-", 36;"O+", 3;"A-", 28;"A+", 1;"B-", 20;"B+", 1;"AB-", 5;"AB+")
 
 #define CanInteract(user, state) (CanUseTopic(user, state) == STATUS_INTERACTIVE)
+
+#define CanDefaultInteract(user) (CanUseTopic(user, DefaultTopicState()) == STATUS_INTERACTIVE)
 
 #define CanInteractWith(user, target, state) (target.CanUseTopic(user, state) == STATUS_INTERACTIVE)
 
