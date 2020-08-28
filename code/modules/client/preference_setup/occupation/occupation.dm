@@ -98,7 +98,7 @@
 
 		. += "<hr><table width = '100%''><tr>"
 		. += "<td width = '50%' align = 'right'><font size = 3><b>[capitalize(job_map)]</b></td>"
-		. += "<td width = '50%' align = 'left''><a href='?src=\ref[src];toggle_map=[job_map]'>[pref.hiding_maps[job_map] ? "Show" : "Hide"]</a></font></td>"
+		. += "<td width = '50%' align = 'left''><a href='?src=\ref[src];toggle_map=[job_map]'>[pref.hiding_maps[job_map] ? "Показать" : "Спрятать"]</a></font></td>"
 		. += "</tr></table>"
 
 		if(!pref.hiding_maps[job_map])
@@ -242,7 +242,7 @@
 			. += "<u><a href='?src=\ref[src];job_alternative=1'>Если должность недоступна - выбрать ассистента</a></u>"
 		if(RETURN_TO_LOBBY)
 			. += "<u><a href='?src=\ref[src];job_alternative=1'>Если должность недоступна - Вернуться в лобби</a></u>"
-	. += "<a href='?src=\ref[src];reset_jobs=1'>\[Reset\]</a></center>"
+	. += "<a href='?src=\ref[src];reset_jobs=1'>\[Сбросить\]</a></center>"
 	. += "<hr/>"
 	. += "</tt><br>"
 	. = jointext(.,null)

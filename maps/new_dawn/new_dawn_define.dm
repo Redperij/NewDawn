@@ -1,6 +1,6 @@
 /datum/map/new_dawn
-	name = "New Dawn"
-	full_name = "NSS New Dawn"
+	name = "Рассвет"
+	full_name = "Новый Рассвет"
 	path = "new_dawn"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
 	config_path = "config/new_dawn_config.txt"
@@ -18,24 +18,24 @@
 
 	station_name  = "Новый рассвет"
 	station_short = "Рассвет"
-	dock_name     = "NDW"
-	boss_name     = "Expeditionary Command"
-	boss_short    = "Command"
-	company_name  = "Sol Central Government"
-	company_short = "SolGov"
+	dock_name     = "СНР"
+	boss_name     = "Экспедиционное командование"
+	boss_short    = "Командование"
+	company_name  = "Центральное Правительство Сола"
+	company_short = "СолПрав"
 
 	map_admin_faxes = list(
-		"Expeditionary Corps Command",
-		"Expeditionary Corps Logistics",
-		"EXO Head Office",
-		"EXO Internal Affairs",
-		"SFP Territory Support",
-		"SFP Special Investigations",
-		"SFP Fugitive Recovery",
-		"Sol Fleet Mars Commmand",
-		"Bureau of Diplomatic Affairs",
-		"Emergency Management Bureau",
-		"Secure Routing Service"
+		"Командование Экспедиционного Корпуса",
+		"Логистика Экспедиционного Корпуса",
+		"Офис Главы ОЭК",
+		"Внутренние Дела ОЭК",
+		"ФПС Территориальная Поддержка",
+		"ФПС Спец Расследования",
+		"ФПС Поимка Беглецов",
+		"Сол, Командование Флота",
+		"Бюро Дипломатических Дел",
+		"Бюро Экстренного Реагирования",
+		"Защищённая Служба Маршрутизации"
 	)
 	//These should probably be moved into the evac controller...
 	shuttle_docked_message = "Attention all hands: Jump preparation complete. The bluespace drive is now spooling up, secure all stations for departure. Time to jump: approximately %ETD%."

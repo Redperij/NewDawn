@@ -109,7 +109,7 @@
 #define FACTION_SKRELL_QONPRRI "Квон'прри"
 
 // Adherent cultures.
-#define CULTURE_ADHERENT             "Служащие"
+#define CULTURE_ADHERENT             "Дозор"
 
 #define HOME_SYSTEM_ADHERENT         "Кэнон"
 #define HOME_SYSTEM_ADHERENT_MOURNER "Реликтовый Мир"

@@ -1,5 +1,5 @@
 /obj/effect/overmap/visitable/ship/torch
-	name = "NSS New Dawn"
+	name = "Новый Рассвет"
 	desc = "A bluespace-capable corvette bearing markings of the SCG Expeditionary Corps."
 	fore_dir = WEST
 	vessel_mass = 100000
