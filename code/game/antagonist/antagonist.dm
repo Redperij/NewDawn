@@ -15,7 +15,7 @@
 
 	// Role data.
 	var/id = "traitor"                      // Unique datum identifier. Also preferences option for this role.
-	var/role_text = "Traitor"               // special_role text.
+	var/role_text = "Traitor"               // special_role text. //tbt
 	var/role_text_plural = "Traitors"       // As above but plural.
 
 	// Visual references.
@@ -79,7 +79,7 @@
 		and before taking extreme actions, please try to also contact the administration! \
 		Think through your actions and make the roleplay immersive! <b>Please remember all \
 		rules aside from those without explicit exceptions apply to antagonists.</b>"
-	
+
 	// Map template that antag needs to load before spawning. Nulled after it's loaded.
 	var/datum/map_template/base_to_load
 
