@@ -83,11 +83,11 @@
 	. = list()
 	var/list/spoken_langs = get_spoken_languages()
 	if(LAZYLEN(spoken_langs))
-		. += "<b>Language(s):</b> [english_list(spoken_langs)]."
+		. += "<b>Язык(и):</b> [russian_list(spoken_langs)]."
 	if(LAZYLEN(secondary_langs))
-		. += "<b>Optional language(s):</b> [english_list(secondary_langs)]."
+		. += "<b>Опциональный язык(и):</b> [russian_list(secondary_langs)]."
 	if(!isnull(economic_power))
-		. += "<b>Economic power:</b> [round(100 * economic_power)]%"
+		. += "<b>Экономическая Сила:</b> [round(100 * economic_power)]%"
 
 /decl/cultural_info/proc/get_spoken_languages()
 	. = list()

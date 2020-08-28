@@ -154,7 +154,7 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 
 	var/datum/species/mob_species = all_species[pref.species]
 	var/title = "<b>Вид<a href='?src=\ref[src];show_species=1'><small>?</small></a>:</b> <a href='?src=\ref[src];set_species=1'>[mob_species.name]</a>"
-	var/append_text = "<a href='?src=\ref[src];toggle_species_verbose=1'>[hide_species ? "Расширить" : "Уменьшить"]</a>"
+	var/append_text = "<a href='?src=\ref[src];toggle_species_verbose=1'>[hide_species ? "Подробнее" : "Уменьшить"]</a>"
 	. += "<hr>"
 	. += mob_species.get_description(title, append_text, verbose = !hide_species, skip_detail = TRUE, skip_photo = TRUE)
 	. += "<table><tr style='vertical-align:top'><td><b>Тело</b> "

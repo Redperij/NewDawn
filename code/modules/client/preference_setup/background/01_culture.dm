@@ -15,7 +15,7 @@
 	var/list/cultural_info = list()
 
 /datum/category_item/player_setup_item/background/culture
-	name = "Culture"
+	name = "Культура"
 	sort_order = 1
 	var/list/hidden
 	var/list/tokens = ALL_CULTURAL_TAGS
@@ -54,7 +54,7 @@
 	for(var/token in tokens)
 		var/decl/cultural_info/culture = SSculture.get_culture(pref.cultural_info[token])
 		var/title = "<b>[tokens[token]]<a href='?src=\ref[src];set_[token]=1'><small>?</small></a>:</b><a href='?src=\ref[src];set_[token]=2'>[pref.cultural_info[token]]</a>"
-		var/append_text = "<a href='?src=\ref[src];toggle_verbose_[token]=1'>[hidden[token] ? "Expand" : "Collapse"]</a>"
+		var/append_text = "<a href='?src=\ref[src];toggle_verbose_[token]=1'>[hidden[token] ? "Подробнее" : "Уменьшить"]</a>"
 		. += culture.get_description(title, append_text, verbose = !hidden[token])
 	. = jointext(.,null)
 
@@ -75,7 +75,7 @@
 			else
 				GET_ALLOWED_VALUES(valid_values, token)
 
-			var/choice = input("Please select an entry.") as null|anything in valid_values
+			var/choice = input("Пожалуйста, выберите статью.") as null|anything in valid_values
 			if(!choice)
 				return
 
