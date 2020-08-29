@@ -20,10 +20,10 @@
 
 /datum/category_item/player_setup_item/player_global/ooc/content(var/mob/user)
 	. += "<b>OOC:</b><br>"
-	. += "Ignored Players<br>"
+	. += "Игнорируемые Игроки<br>"
 	for(var/ignored_player in pref.ignored_players)
-		. += "[ignored_player] (<a href='?src=\ref[src];unignore_player=[ignored_player]'>Unignore</a>)<br>"
-	. += "(<a href='?src=\ref[src];ignore_player=1'>Ignore Player</a>)"
+		. += "[ignored_player] (<a href='?src=\ref[src];unignore_player=[ignored_player]'>Перестать Игнорировать</a>)<br>"
+	. += "(<a href='?src=\ref[src];ignore_player=1'>Игнорировать Игрока</a>)"
 
 /datum/category_item/player_setup_item/player_global/ooc/OnTopic(var/href,var/list/href_list, var/mob/user)
 	if(href_list["unignore_player"])
@@ -31,7 +31,7 @@
 		return TOPIC_REFRESH
 
 	if(href_list["ignore_player"])
-		var/player_to_ignore = sanitize(ckey(input(user, "Who do you want to ignore?","Ignore") as null|text))
+		var/player_to_ignore = sanitize(ckey(input(user, "Кого вы хотите игнорировать?","Игнорировать") as null|text))
 		//input() sleeps while waiting for the user to respond, so we need to check CanUseTopic() again here
 		if(player_to_ignore && CanUseTopic(user))
 			pref.ignored_players |= player_to_ignore

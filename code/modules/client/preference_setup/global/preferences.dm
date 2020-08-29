@@ -1,30 +1,30 @@
-GLOBAL_VAR_CONST(PREF_YES, "Yes")
-GLOBAL_VAR_CONST(PREF_NO, "No")
-GLOBAL_VAR_CONST(PREF_ALL_SPEECH, "All Speech")
-GLOBAL_VAR_CONST(PREF_NEARBY, "Nearby")
-GLOBAL_VAR_CONST(PREF_ALL_EMOTES, "All Emotes")
-GLOBAL_VAR_CONST(PREF_ALL_CHATTER, "All Chatter")
-GLOBAL_VAR_CONST(PREF_SHORT, "Short")
-GLOBAL_VAR_CONST(PREF_LONG, "Long")
-GLOBAL_VAR_CONST(PREF_SHOW, "Show")
-GLOBAL_VAR_CONST(PREF_HIDE, "Hide")
-GLOBAL_VAR_CONST(PREF_FANCY, "Fancy")
-GLOBAL_VAR_CONST(PREF_PLAIN, "Plain")
-GLOBAL_VAR_CONST(PREF_PRIMARY, "Primary")
-GLOBAL_VAR_CONST(PREF_ALL, "All")
-GLOBAL_VAR_CONST(PREF_OFF, "Off")
-GLOBAL_VAR_CONST(PREF_BASIC, "Basic")
-GLOBAL_VAR_CONST(PREF_FULL, "Full")
-GLOBAL_VAR_CONST(PREF_MIDDLE_CLICK, "middle click")
-GLOBAL_VAR_CONST(PREF_ALT_CLICK, "alt click")
-GLOBAL_VAR_CONST(PREF_CTRL_CLICK, "ctrl click")
-GLOBAL_VAR_CONST(PREF_CTRL_SHIFT_CLICK, "ctrl shift click")
-GLOBAL_VAR_CONST(PREF_HEAR, "Hear")
-GLOBAL_VAR_CONST(PREF_SILENT, "Silent")
-GLOBAL_VAR_CONST(PREF_SHORTHAND, "Shorthand")
-GLOBAL_VAR_CONST(PREF_NEVER, "Never")
-GLOBAL_VAR_CONST(PREF_NON_ANTAG, "Non-Antag Only")
-GLOBAL_VAR_CONST(PREF_ALWAYS, "Always")
+GLOBAL_VAR_CONST(PREF_YES, "Да")
+GLOBAL_VAR_CONST(PREF_NO, "Нет")
+GLOBAL_VAR_CONST(PREF_ALL_SPEECH, "Все Разговоры")
+GLOBAL_VAR_CONST(PREF_NEARBY, "Рядом")
+GLOBAL_VAR_CONST(PREF_ALL_EMOTES, "Все Эмоуты")
+GLOBAL_VAR_CONST(PREF_ALL_CHATTER, "Все Передачи")
+GLOBAL_VAR_CONST(PREF_SHORT, "Короткий")
+GLOBAL_VAR_CONST(PREF_LONG, "Длинный")
+GLOBAL_VAR_CONST(PREF_SHOW, "Показывать")
+GLOBAL_VAR_CONST(PREF_HIDE, "Скрывать")
+GLOBAL_VAR_CONST(PREF_FANCY, "Классный")
+GLOBAL_VAR_CONST(PREF_PLAIN, "Плоский")
+GLOBAL_VAR_CONST(PREF_PRIMARY, "Основной")
+GLOBAL_VAR_CONST(PREF_ALL, "Все")
+GLOBAL_VAR_CONST(PREF_OFF, "Выключен")
+GLOBAL_VAR_CONST(PREF_BASIC, "Стандартный")
+GLOBAL_VAR_CONST(PREF_FULL, "Полный")
+GLOBAL_VAR_CONST(PREF_MIDDLE_CLICK, "скм")
+GLOBAL_VAR_CONST(PREF_ALT_CLICK, "alt клик")
+GLOBAL_VAR_CONST(PREF_CTRL_CLICK, "ctrl клик")
+GLOBAL_VAR_CONST(PREF_CTRL_SHIFT_CLICK, "ctrl shift клик")
+GLOBAL_VAR_CONST(PREF_HEAR, "Слышать")
+GLOBAL_VAR_CONST(PREF_SILENT, "Беззвучные")
+GLOBAL_VAR_CONST(PREF_SHORTHAND, "Сокращение")
+GLOBAL_VAR_CONST(PREF_NEVER, "Никогда")
+GLOBAL_VAR_CONST(PREF_NON_ANTAG, "Только Не Антаг")
+GLOBAL_VAR_CONST(PREF_ALWAYS, "Всегда")
 
 var/list/_client_preferences
 var/list/_client_preferences_by_key
@@ -85,11 +85,11 @@ var/list/_client_preferences_by_type
 *********************/
 
 /datum/client_preference/play_admin_midis
-	description ="Play admin midis"
+	description ="Админские миди"
 	key = "SOUND_MIDI"
 
 /datum/client_preference/play_lobby_music
-	description ="Play lobby music"
+	description ="Музыка в лобби"
 	key = "SOUND_LOBBY"
 
 /datum/client_preference/play_lobby_music/changed(var/mob/preference_mob, var/new_value)
@@ -100,7 +100,7 @@ var/list/_client_preferences_by_type
 		sound_to(preference_mob, sound(null, repeat = 0, wait = 0, volume = 85, channel = GLOB.lobby_sound_channel))
 
 /datum/client_preference/play_ambiance
-	description ="Play ambience"
+	description ="Звуки окружения"
 	key = "SOUND_AMBIENCE"
 
 /datum/client_preference/play_ambiance/changed(var/mob/preference_mob, var/new_value)
@@ -109,37 +109,37 @@ var/list/_client_preferences_by_type
 		sound_to(preference_mob, sound(null, repeat = 0, wait = 0, volume = 0, channel = GLOB.ambience_sound_channel))
 
 /datum/client_preference/ghost_ears
-	description ="Ghost ears"
+	description ="Уши Призрака"
 	key = "CHAT_GHOSTEARS"
 	options = list(GLOB.PREF_ALL_SPEECH, GLOB.PREF_NEARBY)
 
 /datum/client_preference/ghost_sight
-	description ="Ghost sight"
+	description ="Зрение Призрака"
 	key = "CHAT_GHOSTSIGHT"
 	options = list(GLOB.PREF_ALL_EMOTES, GLOB.PREF_NEARBY)
 
 /datum/client_preference/ghost_radio
-	description ="Ghost radio"
+	description ="Радио Призрака"
 	key = "CHAT_GHOSTRADIO"
 	options = list(GLOB.PREF_ALL_CHATTER, GLOB.PREF_NEARBY)
 
 /datum/client_preference/language_display
-	description = "Display Language Names"
+	description = "Отображение Названий Языков"
 	key = "LANGUAGE_DISPLAY"
 	options = list(GLOB.PREF_SHORTHAND, GLOB.PREF_FULL, GLOB.PREF_OFF)
 
 /datum/client_preference/ghost_follow_link_length
-	description ="Ghost Follow Links"
+	description ="Ссылки на Следование для Призрака"
 	key = "CHAT_GHOSTFOLLOWLINKLENGTH"
 	options = list(GLOB.PREF_SHORT, GLOB.PREF_LONG)
 
 /datum/client_preference/chat_tags
-	description ="Chat tags"
+	description ="Метки Чата"
 	key = "CHAT_SHOWICONS"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/show_typing_indicator
-	description ="Typing indicator"
+	description ="Индикатор Набора Текста"
 	key = "SHOW_TYPING"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
@@ -148,79 +148,79 @@ var/list/_client_preferences_by_type
 		preference_mob.remove_typing_indicator()
 
 /datum/client_preference/show_ooc
-	description ="OOC chat"
+	description ="OOC Чат"
 	key = "CHAT_OOC"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/show_aooc
-	description ="AOOC chat"
+	description ="AOOC Чат"
 	key = "CHAT_AOOC"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/show_looc
-	description ="LOOC chat"
+	description ="LOOC Чат"
 	key = "CHAT_LOOC"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/show_dsay
-	description ="Dead chat"
+	description ="Чат Мёртвых"
 	key = "CHAT_DEAD"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/show_progress_bar
-	description ="Progress Bar"
+	description ="Ползунок Прогресса"
 	key = "SHOW_PROGRESS"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/browser_style
-	description = "Fake NanoUI Browser Style"
+	description = "Фэйковый стиль браузера NanoUI"
 	key = "BROWSER_STYLED"
 	options = list(GLOB.PREF_FANCY, GLOB.PREF_PLAIN)
 
 /datum/client_preference/autohiss
-	description = "Autohiss"
+	description = "Автоматическое Коверканье Речи"
 	key = "AUTOHISS"
 	options = list(GLOB.PREF_OFF, GLOB.PREF_BASIC, GLOB.PREF_FULL)
 
 /datum/client_preference/hardsuit_activation
-	description = "Hardsuit Module Activation Key"
+	description = "Клавиша для Активирования Модуля Рига"
 	key = "HARDSUIT_ACTIVATION"
 	options = list(GLOB.PREF_MIDDLE_CLICK, GLOB.PREF_CTRL_CLICK, GLOB.PREF_ALT_CLICK, GLOB.PREF_CTRL_SHIFT_CLICK)
 
 /datum/client_preference/holster_on_intent
-	description = "Draw gun based on intent"
+	description = "Доставание Оружия с Оглядкой на Намерение"
 	key = "HOLSTER_ON_INTENT"
 
 /datum/client_preference/show_credits
-	description = "Show End Titles"
+	description = "Показывать Титры"
 	key = "SHOW_CREDITS"
 
 /datum/client_preference/show_ckey_credits
-	description = "Show Ckey in End Credits/Special Role List"
+	description = "Показывать Ckey в Титрах/Списке Спец Ролей"
 	key = "SHOW_CKEY_CREDITS"
 	options = list(GLOB.PREF_HIDE, GLOB.PREF_SHOW)
 
 /datum/client_preference/play_instruments
-	description ="Play instruments"
+	description ="Игра на Инструментах"
 	key = "SOUND_INSTRUMENTS"
 
 /datum/client_preference/give_personal_goals
-	description = "Give Personal Goals"
+	description = "Получать Персональные Цели"
 	key = "PERSONAL_GOALS"
 	options = list(GLOB.PREF_NEVER, GLOB.PREF_NON_ANTAG, GLOB.PREF_ALWAYS)
 
 /datum/client_preference/show_department_goals
-	description = "Show Departmental Goals"
+	description = "Показывать Цели Департамента"
 	key = "DEPT_GOALS"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/examine_messages
-	description ="Examining messages"
+	description ="Сообщения при Осмотре"
 	key = "EXAMINE_MESSAGES"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/goonchat
-	description = "Use Goon Chat"
+	description = "Использовать Goon Чат"
 	key = "USE_GOONCHAT"
 
 /datum/client_preference/goonchat/changed(var/mob/preference_mob, var/new_value)
@@ -253,17 +253,17 @@ var/list/_client_preferences_by_type
 		return given_client && given_client.holder
 
 /datum/client_preference/staff/show_chat_prayers
-	description = "Chat Prayers"
+	description = "Молитвы в Чате"
 	key = "CHAT_PRAYER"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
 /datum/client_preference/staff/play_adminhelp_ping
-	description = "Adminhelps"
+	description = "Админхэлпы"
 	key = "SOUND_ADMINHELP"
 	options = list(GLOB.PREF_HEAR, GLOB.PREF_SILENT)
 
 /datum/client_preference/staff/show_rlooc
-	description ="Remote LOOC chat"
+	description ="Весь LOOC Чат"
 	key = "CHAT_RLOOC"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 

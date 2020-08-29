@@ -1,22 +1,22 @@
 GLOBAL_LIST_INIT(possible_chassis, list(
-		"Drone" = "drone",
-		"Cat" = "cat",
-		"Mouse" = "mouse",
-		"Monkey" = "monkey",
-		"Rabbit" = "rabbit",
-		"Mushroom" = "mushroom",
-		"Corgi" = "corgi",
-		"Crow" = "crow"
+		"Дрон" = "drone",
+		"Кот" = "cat",
+		"Мышь" = "mouse",
+		"Обезьяна" = "monkey",
+		"Кролик" = "rabbit",
+		"Гриб" = "mushroom",
+		"Корги" = "corgi",
+		"Ворона" = "crow"
 		))
 
 GLOBAL_LIST_INIT(possible_say_verbs, list(
-		"Robotic" = list("states","declares","queries"),
-		"Natural" = list("says","yells","asks"),
-		"Beep" = list("beeps","beeps loudly","boops"),
-		"Chirp" = list("chirps","chirrups","cheeps"),
-		"Feline" = list("purrs","yowls","meows"),
-		"Canine" = list("yaps", "barks", "woofs"),
-		"Corvid" = list("caws", "caws loudly", "whistles")
+		"Роботический" = list("утверждает","заявляет","вопрашает"),
+		"Натуральный" = list("говорит","кричит","спрашивает"),
+		"Бип" = list("пищит","громко пищит","бупает"),
+		"Щебетание" = list("щебечет","громко щебечет","чирикает"),
+		"Кошачий" = list("мурлычет","орёт","мяукает"),
+		"Собачий" = list("бормочет", "лает", "гавкает"),
+		"Птичий" = list("каркает", "громко каркает", "свистит")
 		))
 
 /mob/living/silicon/pai
