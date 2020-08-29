@@ -22,7 +22,7 @@ Civilian
 *******/
 
 /datum/job/assistant
-	title = "Пассажир"
+	title = "Независимый Наблюдатель"
 	total_positions = 12
 	spawn_positions = 12
 	supervisors = "Старпом"
@@ -37,7 +37,6 @@ Civilian
 		"Натуралист",
 		"Эколог",
 		"Конферансье",
-		"Независимый Наблюдатель",
 		"Социолог",
 		"Тренер")
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/passenger

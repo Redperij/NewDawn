@@ -3,9 +3,10 @@
  * Backpack
  */
 
+// tbt
 /obj/item/weapon/storage/backpack
-	name = "backpack"
-	desc = "You wear this on your back and put items into it."
+	name = "рюкзак"
+	desc = "Вы носите это на спине и складываете в него вещи."
 	item_icons = list(
 		slot_l_hand_str = 'icons/mob/onmob/items/lefthand_backpacks.dmi',
 		slot_r_hand_str = 'icons/mob/onmob/items/righthand_backpacks.dmi',
@@ -43,8 +44,8 @@
  */
 
 /obj/item/weapon/storage/backpack/holding
-	name = "bag of holding"
-	desc = "A backpack that opens into a localized pocket of Blue Space."
+	name = "сумка для хранения"
+	desc = "Сумка, которая открывается в локальный Блю Спейс карман."
 	origin_tech = list(TECH_BLUESPACE = 4)
 	icon_state = "holdingpack"
 	max_w_class = ITEM_SIZE_NORMAL
@@ -56,7 +57,7 @@
 
 /obj/item/weapon/storage/backpack/holding/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(istype(W, /obj/item/weapon/storage/backpack/holding) || istype(W, /obj/item/weapon/storage/bag/trash/bluespace))
-		to_chat(user, "<span class='warning'>The Bluespace interfaces of the two devices conflict and malfunction.</span>")
+		to_chat(user, "<span class='warning'>Блюспейс интерфейсы обоих устройств конфликтуют и работают некорректно.</span>")
 		qdel(W)
 		return 1
 	return ..()
@@ -147,28 +148,28 @@
 	icon_state = "chempack"
 
 /obj/item/weapon/storage/backpack/rucksack
-	name = "black rucksack"
+	name = "чёрный большой рюкзак"
 	desc = "A sturdy military-grade backpack with low-profile straps. Designed to work well with armor."
 	icon_state = "rucksack"
 	item_state_slots = list(slot_l_hand_str = "rucksack", slot_r_hand_str = "rucksack")
 
 /obj/item/weapon/storage/backpack/rucksack/blue
-	name = "blue rucksack"
+	name = "синий большой рюкзак"
 	icon_state = "rucksack_blue"
 	item_state_slots = list(slot_l_hand_str = "rucksack_blue", slot_r_hand_str = "rucksack_blue")
 
 /obj/item/weapon/storage/backpack/rucksack/green
-	name = "green rucksack"
+	name = "зелёный большой рюкзак"
 	icon_state = "rucksack_green"
 	item_state_slots = list(slot_l_hand_str = "rucksack_green", slot_r_hand_str = "rucksack_green")
 
 /obj/item/weapon/storage/backpack/rucksack/navy
-	name = "navy rucksack"
+	name = "большой рюкзак флота"
 	icon_state = "rucksack_navy"
 	item_state_slots = list(slot_l_hand_str = "rucksack_navy", slot_r_hand_str = "rucksack_navy")
 
 /obj/item/weapon/storage/backpack/rucksack/tan
-	name = "tan rucksack"
+	name = "жёлто-коричневый большой рюкзак"
 	icon_state = "rucksack_tan"
 	item_state_slots = list(slot_l_hand_str = "rucksack_tan", slot_r_hand_str = "rucksack_tan")
 
@@ -252,44 +253,44 @@
  */
 
 /obj/item/weapon/storage/backpack/satchel
-	name = "satchel"
-	desc = "A trendy looking satchel."
+	name = "портфель"
+	desc = "Всегда в тренде."
 	icon_state = "satchel-norm"
 
 /obj/item/weapon/storage/backpack/satchel/grey
-	name = "grey satchel"
+	name = "серый портфель"
 
 /obj/item/weapon/storage/backpack/satchel/grey/withwallet
 	startswith = list(/obj/item/weapon/storage/wallet/random)
 
 /obj/item/weapon/storage/backpack/satchel/leather //brown, master type
-	name = "brown leather satchel"
-	desc = "A very fancy satchel made of some kind of leather."
+	name = "коричневый кожаный портфель"
+	desc = "Классный портфель сделанный из кожи."
 	icon_state = "satchel"
 	color = "#3d2711"
 
 /obj/item/weapon/storage/backpack/satchel/leather/khaki
-	name = "khaki leather satchel"
+	name = "кожаный портфель цвета хаки"
 	color = "#baa481"
 
 /obj/item/weapon/storage/backpack/satchel/leather/black
-	name = "black leather satchel"
+	name = "чёрный кожаный портфель"
 	color = "#212121"
 
 /obj/item/weapon/storage/backpack/satchel/leather/navy
-	name = "navy leather satchel"
+	name = "кожаный портфель флота"
 	color = "#1c2133"
 
 /obj/item/weapon/storage/backpack/satchel/leather/olive
-	name = "olive leather satchel"
+	name = "оливковый кожаный портфель"
 	color = "#544f3d"
 
 /obj/item/weapon/storage/backpack/satchel/leather/reddish
-	name = "auburn leather satchel"
+	name = "каштановый кожаный портфель"
 	color = "#512828"
 
 /obj/item/weapon/storage/backpack/satchel/pocketbook //black, master type
-	name = "black pocketbook"
+	name = "чёрный бумажник"
 	desc = "A neat little folding clasp pocketbook with a shoulder sling."
 	icon_state = "pocketbook"
 	w_class = ITEM_SIZE_HUGE // to avoid recursive backpacks
@@ -299,15 +300,15 @@
 	color = "#212121"
 
 /obj/item/weapon/storage/backpack/satchel/pocketbook/brown
-	name = "brown pocketbook"
+	name = "коричневый бумажник"
 	color = "#3d2711"
 
 /obj/item/weapon/storage/backpack/satchel/pocketbook/reddish
-	name = "auburn pocketbook"
+	name = "каштановый бумажник"
 	color = "#512828"
 
 /obj/item/weapon/storage/backpack/satchel/eng
-	name = "industrial satchel"
+	name = "индустриальный портфель"
 	desc = "A tough satchel with extra pockets."
 	icon_state = "satchel-eng"
 	item_state_slots = list(
@@ -316,7 +317,7 @@
 		)
 
 /obj/item/weapon/storage/backpack/satchel/med
-	name = "medical satchel"
+	name = "медицинский портфель"
 	desc = "A sterile satchel used in medical departments."
 	icon_state = "satchel-med"
 	item_state_slots = list(
@@ -325,27 +326,27 @@
 		)
 
 /obj/item/weapon/storage/backpack/satchel/vir
-	name = "virologist satchel"
+	name = "портфель вирусолога"
 	desc = "A sterile satchel with virologist colours."
 	icon_state = "satchel-vir"
 
 /obj/item/weapon/storage/backpack/satchel/chem
-	name = "pharmacist satchel"
+	name = "портфель фармацевта"
 	desc = "A sterile satchel with pharmacist colours."
 	icon_state = "satchel-chem"
 
 /obj/item/weapon/storage/backpack/satchel/gen
-	name = "geneticist satchel"
+	name = "портфель генетика"
 	desc = "A sterile satchel with geneticist colours."
 	icon_state = "satchel-gen"
 
 /obj/item/weapon/storage/backpack/satchel/tox
-	name = "corporate satchel"
+	name = "корпоративный портфель"
 	desc = "Useful for holding research materials. The colors on it denote it as a corporate bag."
 	icon_state = "satchel-nt"
 
 /obj/item/weapon/storage/backpack/satchel/sec
-	name = "security satchel"
+	name = "портфель сб"
 	desc = "A robust satchel for security related needs."
 	icon_state = "satchel-sec"
 	item_state_slots = list(
@@ -354,17 +355,17 @@
 		)
 
 /obj/item/weapon/storage/backpack/satchel/sec/exo
-	name = "corporate security satchel"
+	name = "портфель корпоративной охраны"
 	icon_state = "satchel-sec_exo"
 
 /obj/item/weapon/storage/backpack/satchel/hyd
-	name = "hydroponics satchel"
+	name = "портфель гидропоники"
 	desc = "A green satchel for plant related work."
 	icon_state = "satchel_hyd"
 
 /obj/item/weapon/storage/backpack/satchel/cap
-	name = "captain's satchel"
-	desc = "An exclusive satchel for officers."
+	name = "портфель капитана"
+	desc = "Эксклюзивный портфель для офицеров."
 	icon_state = "satchel-cap"
 	item_state_slots = list(
 		slot_l_hand_str = "satchel-cap",
@@ -373,7 +374,7 @@
 
 //Smuggler's satchel
 /obj/item/weapon/storage/backpack/satchel/flat
-	name = "\improper Smuggler's satchel"
+	name = "\improper Портфель контрабандиста"
 	desc = "A very slim satchel that can easily fit into tight spaces."
 	icon_state = "satchel-flat"
 	item_state = "satchel-norm"
@@ -402,7 +403,7 @@
 /obj/item/weapon/storage/backpack/satchel/flat/attackby(obj/item/W, mob/user)
 	var/turf/T = get_turf(src)
 	if(hides_under_flooring() && isturf(T) && !T.is_plating())
-		to_chat(user, "<span class='warning'>You must remove the plating first.</span>")
+		to_chat(user, "<span class='warning'>Сперва вы должны убрать покрытие.</span>")
 		return 1
 	return ..()
 
@@ -444,7 +445,7 @@
  */
 
 /obj/item/weapon/storage/backpack/messenger
-	name = "messenger bag"
+	name = "курьерская сумка"
 	desc = "A sturdy backpack worn over one shoulder."
 	icon_state = "courierbag"
 

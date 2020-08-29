@@ -695,7 +695,7 @@
 	sort_order = 4
 
 /datum/mil_rank/terran/e6
-	name = "Мтарший Боцман"
+	name = "Cтарший Боцман"
 	name_short = "СБцм"
 	accessory = list(/obj/item/clothing/accessory/terran/rank/navy/enlisted/e6)
 	sort_order = 6
